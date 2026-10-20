@@ -1,0 +1,2284 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tường lời chúc 20/10 — Dành tặng những người phụ nữ yêu thương</title>
+    <meta property="og:title" content="Tường lời chúc 20/10 — Gửi trọn yêu thương">
+    <meta property="og:description" content="Những lời chúc 20/10 chân thành nhất dành tặng Bà, Mẹ, Chị Em và Người thương.">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+                    },
+                    colors: {
+                        berry: {
+                            50: '#fdf2f6',
+                            100: '#fbe6ef',
+                            200: '#f6cde0',
+                            500: '#9e2a63',
+                            600: '#7c2356',
+                            700: '#7c2348',
+                            800: '#631938',
+                            900: '#4d122b',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #f6f3f5;
+            background-image: 
+                radial-gradient(circle at 10% 15%, rgba(251, 207, 232, 0.32), transparent 36%),
+                radial-gradient(circle at 88% 18%, rgba(254, 243, 199, 0.28), transparent 35%),
+                radial-gradient(circle at 50% 88%, rgba(233, 213, 255, 0.25), transparent 42%);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Scrapbook Polaroid Outer Card */
+        .wish-card-outer {
+            background: #ffffff;
+            border-radius: 1.4rem;
+            padding: 0.9rem;
+            box-shadow: 
+                0 14px 30px -8px rgba(124, 35, 72, 0.09),
+                0 4px 12px -2px rgba(0, 0, 0, 0.03),
+                0 0 0 1px rgba(244, 114, 182, 0.09);
+            transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
+            position: relative;
+            user-select: none;
+        }
+
+        .wish-card-outer:hover {
+            transform: rotate(0deg) translateY(-5px) !important;
+            box-shadow: 
+                0 22px 42px -10px rgba(124, 35, 72, 0.16),
+                0 6px 16px -4px rgba(0, 0, 0, 0.05),
+                0 0 0 1px rgba(124, 35, 86, 0.18);
+            z-index: 20;
+        }
+
+        /* Inner Card Tints */
+        .tint-pink { background-color: #fdf1f5; }
+        .tint-cream { background-color: #fef8ec; }
+        .tint-mint { background-color: #eef7f6; }
+        .tint-lavender { background-color: #f5f3ff; }
+        .tint-peach { background-color: #fff3ef; }
+
+        /* Time Badge Colors */
+        .badge-burgundy { background-color: #6d285a; color: #ffffff; }
+        .badge-slate { background-color: #554c6c; color: #ffffff; }
+        .badge-ocean { background-color: #325f85; color: #ffffff; }
+        .badge-emerald { background-color: #2e7d5b; color: #ffffff; }
+
+        /* Washi Tapes */
+        .washi-tape {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            width: 88px;
+            height: 22px;
+            z-index: 25;
+            opacity: 0.9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            pointer-events: none;
+            clip-path: polygon(
+                2% 0%, 98% 0%, 100% 15%, 98% 30%, 100% 45%, 98% 60%, 100% 75%, 98% 90%, 100% 100%,
+                0% 100%, 2% 85%, 0% 70%, 2% 55%, 0% 40%, 2% 25%, 0% 10%
+            );
+        }
+        .washi-pink { background: linear-gradient(135deg, #fbcfe8 0%, #f9a8d4 100%); transform: translateX(-50%) rotate(-2.5deg); }
+        .washi-yellow { background: linear-gradient(135deg, #fde68a 0%, #fcd34d 100%); transform: translateX(-50%) rotate(2deg); }
+        .washi-blue { background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); transform: translateX(-50%) rotate(-1.5deg); }
+
+        /* 3D Pushpin (Đinh ghim tròn 3D ở góc phải trên) */
+        .pushpin-3d {
+            position: absolute;
+            top: -9px;
+            right: 22px;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            z-index: 25;
+            pointer-events: none;
+            box-shadow: 
+                inset -3px -3px 6px rgba(0,0,0,0.28),
+                inset 3px 3px 6px rgba(255,255,255,0.75),
+                3px 6px 8px rgba(0,0,0,0.22);
+        }
+        .pushpin-gold {
+            background: radial-gradient(circle at 35% 35%, #fde047, #eab308 55%, #ca8a04 100%);
+        }
+        .pushpin-rose {
+            background: radial-gradient(circle at 35% 35%, #fda4af, #f43f5e 55%, #be123c 100%);
+        }
+
+        /* Paperclip (Kẹp giấy hồng) */
+        .paperclip-deco {
+            position: absolute;
+            top: -12px;
+            right: 36px;
+            width: 18px;
+            height: 36px;
+            border: 2.5px solid #f472b6;
+            border-radius: 10px;
+            transform: rotate(18deg);
+            z-index: 25;
+            pointer-events: none;
+            opacity: 0.85;
+            box-shadow: 1px 2px 3px rgba(0,0,0,0.08);
+        }
+        .paperclip-deco::after {
+            content: '';
+            position: absolute;
+            inset: 3px 2px 6px 2px;
+            border: 2px solid #f472b6;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+        }
+
+        /* Horizontal Scroll Track Styling */
+        .horizontal-scroll-track {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 1.75rem;
+            overflow-x: auto;
+            overflow-y: visible;
+            padding: 1.5rem 1rem 2.25rem 1rem;
+            scroll-behavior: smooth;
+            scroll-snap-type: x proximity;
+            cursor: grab;
+        }
+        .horizontal-scroll-track:active {
+            cursor: grabbing;
+        }
+        .horizontal-scroll-track::-webkit-scrollbar {
+            height: 9px;
+        }
+        .horizontal-scroll-track::-webkit-scrollbar-track {
+            background: rgba(244, 114, 182, 0.1);
+            border-radius: 999px;
+            margin: 0 2rem;
+        }
+        .horizontal-scroll-track::-webkit-scrollbar-thumb {
+            background: rgba(124, 35, 86, 0.32);
+            border-radius: 999px;
+        }
+        .horizontal-scroll-track::-webkit-scrollbar-thumb:hover {
+            background: rgba(124, 35, 86, 0.55);
+        }
+
+        /* 2-Row Horizontal Grid Layout */
+        .horizontal-grid-2row {
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-rows: repeat(2, auto);
+            grid-auto-columns: 370px;
+            gap: 1.75rem;
+            overflow-x: auto;
+            padding: 1.5rem 1rem 2.25rem 1rem;
+            scroll-behavior: smooth;
+            scroll-snap-type: x proximity;
+        }
+
+        /* Falling Petals Animation */
+        .petal {
+            position: fixed;
+            top: -10%;
+            z-index: 30;
+            pointer-events: none;
+            user-select: none;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(0vh) rotate(0deg) translateX(0px);
+                opacity: 0.85;
+            }
+            50% {
+                transform: translateY(50vh) rotate(180deg) translateX(25px);
+                opacity: 0.75;
+            }
+            100% {
+                transform: translateY(108vh) rotate(360deg) translateX(-20px);
+                opacity: 0;
+            }
+        }
+
+        /* Range slider styling */
+        input[type="range"] {
+            accent-color: #7c2356;
+        }
+    </style>
+</head>
+<body class="text-slate-800 selection:bg-pink-200 selection:text-berry-800">
+
+    <!-- Falling Flower Petals Layer -->
+    <div id="petalsContainer" class="fixed inset-0 pointer-events-none z-30 overflow-hidden"></div>
+
+    <!-- ==========================================
+         STICKY HEADER
+         ========================================== -->
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-pink-100/80 shadow-xs">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex flex-col xl:flex-row items-center justify-between gap-3">
+                
+                <!-- Left: Editable Title & Subtitle -->
+                <div class="flex items-center justify-between w-full xl:w-auto">
+                    <div onclick="openSettingsModal()" class="cursor-pointer group" title="Nhấn để đổi tiêu đề dành riêng cho gia đình hoặc người thương">
+                        <div class="flex items-center gap-2">
+                            <h1 id="boardTitleText" class="font-serif text-2xl sm:text-[28px] font-bold tracking-tight text-[#7c2348] leading-none">
+                                Lời chúc 20/10
+                            </h1>
+                            <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-semibold bg-pink-50 text-[#7c2348] border border-pink-200/80 opacity-80 group-hover:opacity-100 transition">
+                                <i class="fa-solid fa-pen text-[9px]"></i> Sửa tên
+                            </span>
+                        </div>
+                        <p id="boardSubtitleText" class="text-[11px] sm:text-xs font-semibold tracking-[0.12em] uppercase text-[#6e6268] mt-1 group-hover:text-[#7c2348] transition-colors">
+                            DÀNH TẶNG NHỮNG NGƯỜI PHỤ NỮ YÊU THƯƠNG
+                        </p>
+                    </div>
+
+                    <!-- Mobile Add Button -->
+                    <button onclick="openWishModal()" class="xl:hidden inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-[#7c2356] hover:bg-[#631938] text-white font-semibold text-xs shadow-md active:scale-95 transition">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>Gửi lời chúc</span>
+                    </button>
+                </div>
+
+                <!-- Center: Search Bar + Layout Switcher -->
+                <div class="flex flex-col sm:flex-row items-center gap-2.5 w-full xl:w-auto xl:flex-1 xl:max-w-xl justify-center">
+                    <div class="relative w-full">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+                        <input 
+                            id="searchInput"
+                            type="text" 
+                            placeholder="Tìm tên người nhận, người gửi, nội dung..." 
+                            class="w-full pl-9 pr-8 py-2 rounded-full bg-white border border-pink-100 shadow-inner text-xs sm:text-sm text-slate-700 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-berry-500/25 focus:border-berry-600 transition-all"
+                        >
+                        <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600">
+                            <i class="fa-solid fa-circle-xmark text-sm"></i>
+                        </button>
+                    </div>
+
+                    <!-- Kiểu hiển thị Cuộn ngang -->
+                    <div class="flex items-center bg-pink-50/80 p-1 rounded-full border border-pink-200/70 shrink-0">
+                        <button id="layoutBtn_row1" onclick="setBoardLayout('row1')" class="px-2.5 py-1 rounded-full text-[11px] font-semibold bg-[#7c2356] text-white shadow-xs transition flex items-center gap-1" title="Cuộn ngang 1 hàng mượt mà">
+                            <i class="fa-solid fa-arrows-left-right text-[10px]"></i>
+                            <span>Cuộn ngang</span>
+                        </button>
+                        <button id="layoutBtn_split" onclick="setBoardLayout('split')" class="px-2.5 py-1 rounded-full text-[11px] font-semibold text-[#7c2348] hover:bg-pink-100/70 transition flex items-center gap-1" title="Thẻ lớn bên trái + Cuộn ngang bên phải">
+                            <i class="fa-solid fa-table-columns text-[10px]"></i>
+                            <span>Thẻ lớn + Ngang</span>
+                        </button>
+                        <button id="layoutBtn_row2" onclick="setBoardLayout('row2')" class="px-2.5 py-1 rounded-full text-[11px] font-semibold text-[#7c2348] hover:bg-pink-100/70 transition flex items-center gap-1" title="Cuộn ngang 2 tầng">
+                            <i class="fa-solid fa-grip text-[10px]"></i>
+                            <span>2 Hàng ngang</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Right: Counter, Backup/Restore, Export HTML & Primary CTA -->
+                <div class="flex flex-wrap items-center justify-between xl:justify-end w-full xl:w-auto gap-2">
+                    <span id="wishCountLabel" class="text-xs font-semibold text-slate-500 whitespace-nowrap px-1">
+                        0 lời chúc
+                    </span>
+
+                    <div class="flex items-center gap-1.5 flex-wrap">
+                        <!-- Backup & Restore Button (Giữ nguyên lời chúc khi thay code) -->
+                        <button onclick="openBackupModal()" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 hover:bg-emerald-100 text-emerald-800 border border-emerald-200 transition flex items-center gap-1.5" title="Sao lưu hoặc Khôi phục lời chúc để không bao giờ bị mất dữ liệu">
+                            <i class="fa-solid fa-shield-heart text-[11px]"></i>
+                            <span>Sao lưu / Khôi phục</span>
+                        </button>
+
+                        <!-- Export HTML / Deploy Guide Button -->
+                        <button onclick="openDeployGuideModal()" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 transition flex items-center gap-1.5" title="Tải file web đã đóng gói sẵn toàn bộ lời chúc & ảnh">
+                            <i class="fa-solid fa-download text-[11px]"></i>
+                            <span>Xuất file Web / .web.app</span>
+                        </button>
+
+                        <!-- Falling Petals Toggle -->
+                        <button id="petalToggleBtn" onclick="togglePetals()" class="px-2.5 py-1.5 rounded-full text-xs font-semibold bg-pink-50 text-[#7c2356] border border-pink-200 transition flex items-center gap-1" title="Bật/tắt hiệu ứng cánh hoa rơi">
+                            <span>🌸</span>
+                        </button>
+                    </div>
+
+                    <!-- Primary Desktop Button -->
+                    <button onclick="openWishModal()" class="hidden xl:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#7c2356] hover:bg-[#631938] text-white font-semibold text-sm shadow-md shadow-[#7c2356]/25 hover:-translate-y-0.5 active:translate-y-0 transition-all">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>Gửi lời chúc</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         MAIN HORIZONTAL SCRAPBOOK BOARD AREA
+         ========================================== -->
+    <main class="max-w-[1440px] mx-auto px-3 sm:px-6 lg:px-8 py-6 relative z-10">
+
+        <!-- 1. EMPTY INITIAL STATE (HIỆN KHI CÓ 0 LỜI CHÚC) -->
+        <div id="emptyBoardState" class="flex flex-col items-center justify-center py-12 px-4 text-center">
+            <div class="w-full max-w-xl bg-white/95 rounded-3xl p-8 sm:p-10 shadow-xl border-2 border-dashed border-pink-200 relative">
+                <div class="washi-tape washi-pink"></div>
+                <div class="w-16 h-16 rounded-2xl bg-pink-50 text-[#7c2348] flex items-center justify-center text-3xl mx-auto mb-4 shadow-inner">
+                    💐
+                </div>
+                <h2 class="font-serif text-2xl sm:text-3xl font-bold text-[#7c2348] mb-2">
+                    Tường lời chúc 20/10 của bạn đang trống
+                </h2>
+                <p class="text-slate-500 text-sm leading-relaxed max-w-md mx-auto mb-6">
+                    Tự tay viết những tấm thiệp yêu thương, tải ảnh chụp cùng Bà, Mẹ, Chị/Em gái hoặc Người thương và căn chỉnh khung hình vừa vặn theo ý muốn!
+                </p>
+
+                <div class="flex flex-wrap items-center justify-center gap-3">
+                    <button onclick="openWishModal()" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#7c2356] hover:bg-[#631938] text-white font-semibold text-sm shadow-lg shadow-[#7c2356]/30 hover:-translate-y-0.5 transition-all">
+                        <i class="fa-solid fa-plus"></i>
+                        <span>Thêm lời chúc đầu tiên</span>
+                    </button>
+                    <button onclick="openBackupModal('restore')" class="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-semibold text-xs border border-emerald-200 transition-all">
+                        <i class="fa-solid fa-rotate-left"></i>
+                        <span>Khôi phục lời chúc đã nhập trước đó</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. HORIZONTAL SCRAPBOOK WALL -->
+        <div id="boardContentWrapper" class="hidden relative">
+            
+            <!-- Top Helper Bar: Scroll Hint + Left/Right Navigation Buttons -->
+            <div class="flex items-center justify-between px-2 mb-1">
+                <div class="flex items-center gap-2 text-xs text-slate-500 font-medium">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/80 border border-pink-100 text-[#7c2348] shadow-2xs">
+                        <i class="fa-solid fa-hand-pointer text-[11px]"></i>
+                        <span>Lăn chuột, kéo ngang hoặc bấm mũi tên để xem các thiệp</span>
+                    </span>
+                </div>
+
+                <div class="flex items-center gap-2">
+                    <button onclick="scrollBoardBy(-420)" class="w-9 h-9 rounded-full bg-white hover:bg-[#7c2356] text-[#7c2348] hover:text-white border border-pink-200 shadow-sm flex items-center justify-center transition active:scale-95" title="Trượt sang trái">
+                        <i class="fa-solid fa-chevron-left text-xs"></i>
+                    </button>
+                    <button onclick="scrollBoardBy(420)" class="w-9 h-9 rounded-full bg-white hover:bg-[#7c2356] text-[#7c2348] hover:text-white border border-pink-200 shadow-sm flex items-center justify-center transition active:scale-95" title="Trượt sang phải">
+                        <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- MODE A: Single-Row or 2-Row Horizontal Carousel -->
+            <div id="horizontalSingleWrapper" class="relative">
+                <div id="horizontalTrack" class="horizontal-scroll-track"></div>
+            </div>
+
+            <!-- MODE B: Featured Left Card + Right Horizontal Carousel -->
+            <div id="horizontalSplitWrapper" class="hidden grid-cols-1 lg:grid-cols-12 gap-6 items-start pt-2">
+                <!-- Pinned Featured Card on Left (4 cols) -->
+                <div id="splitFeaturedCol" class="lg:col-span-4 pt-2"></div>
+                <!-- Horizontal Track on Right (8 cols) -->
+                <div class="lg:col-span-8 overflow-hidden">
+                    <div id="splitHorizontalTrack" class="horizontal-scroll-track"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- ==========================================
+         MODAL 1: THÊM / SỬA LỜI CHÚC + CĂN CHỈNH ẢNH TỰ TAY
+         ========================================== -->
+    <div id="wishModal" class="fixed inset-0 z-50 hidden items-center justify-center p-2 sm:p-4 bg-slate-900/60 backdrop-blur-xs overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-5xl w-full shadow-2xl border border-pink-100 overflow-hidden my-auto">
+            
+            <!-- Modal Header -->
+            <div class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-pink-50/90 via-white to-amber-50/70 border-b border-pink-100">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-xl bg-[#7c2356] text-white flex items-center justify-center shadow-sm">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <div>
+                        <h2 id="wishModalTitle" class="font-serif text-xl font-bold text-[#7c2348]">Gửi lời chúc 20/10</h2>
+                        <p class="text-xs text-slate-500">Tự điền lời chúc & kéo chỉnh khung ảnh dành tặng người phụ nữ bạn yêu thương</p>
+                    </div>
+                </div>
+                <button onclick="closeWishModal()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center transition">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Modal Body: Form (Left 7 cols) + Live Preview & Interactive Crop (Right 5 cols) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 max-h-[86vh] overflow-y-auto">
+                
+                <!-- Form Column (7 cols) -->
+                <form id="wishForm" onsubmit="saveWishForm(event)" class="lg:col-span-7 p-5 sm:p-6 space-y-4 border-b lg:border-b-0 lg:border-r border-pink-100">
+                    <input type="hidden" id="editingWishId" value="">
+
+                    <!-- Row 1: Người nhận & Người gửi -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-[#7c2348] mb-1">
+                                Tới (Người nhận) <span class="text-rose-500">*</span>
+                            </label>
+                            <input 
+                                id="inputRecipient" 
+                                type="text" 
+                                required 
+                                placeholder="VD: Bà, Mẹ yêu, Chị Hai, Em yêu..."
+                                oninput="updatePreview()"
+                                class="w-full px-3.5 py-2 rounded-xl border border-pink-200 text-sm focus:outline-none focus:border-[#7c2356]"
+                            >
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">
+                                Từ (Người gửi)
+                            </label>
+                            <input 
+                                id="inputSender" 
+                                type="text" 
+                                placeholder="VD: Cháu Nguyên, Con trai, Anh..."
+                                oninput="updatePreview()"
+                                class="w-full px-3.5 py-2 rounded-xl border border-slate-200 text-sm focus:outline-none focus:border-[#7c2356]"
+                            >
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Nội dung lời chúc + 3 Nút Gợi ý Gia đình / Người thương -->
+                    <div>
+                        <div class="flex flex-wrap items-center justify-between gap-1 mb-1.5">
+                            <label class="block text-xs font-bold uppercase tracking-wider text-[#7c2348]">
+                                Nội dung lời chúc <span class="text-rose-500">*</span>
+                            </label>
+                            <div class="flex flex-wrap items-center gap-1">
+                                <span class="text-[11px] text-slate-400 mr-0.5">Gợi ý nhanh:</span>
+                                <button type="button" onclick="pickCategorySuggestion('mom')" class="text-[11px] font-semibold text-[#7c2348] bg-pink-50 hover:bg-pink-100 px-2.5 py-0.5 rounded-full border border-pink-200 transition">
+                                    👵👩 Bà & Mẹ
+                                </button>
+                                <button type="button" onclick="pickCategorySuggestion('sister')" class="text-[11px] font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 px-2.5 py-0.5 rounded-full border border-amber-200 transition">
+                                    👧 Chị / Em gái
+                                </button>
+                                <button type="button" onclick="pickCategorySuggestion('love')" class="text-[11px] font-semibold text-rose-700 bg-rose-50 hover:bg-rose-100 px-2.5 py-0.5 rounded-full border border-rose-200 transition">
+                                    ❤️ Người thương
+                                </button>
+                            </div>
+                        </div>
+                        <textarea 
+                            id="inputMessage" 
+                            rows="3" 
+                            required
+                            placeholder="Nhập lời chúc yêu thương của bạn..."
+                            oninput="updatePreview()"
+                            class="w-full px-3.5 py-2 rounded-xl border border-pink-200 text-sm leading-relaxed focus:outline-none focus:border-[#7c2356]"
+                        ></textarea>
+                    </div>
+
+                    <!-- Row 3: Upload ảnh + Bảng điều khiển Căn Chỉnh Ảnh Tự Tay (Không bị cắt mặt) -->
+                    <div class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200/90 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold uppercase tracking-wider text-slate-700">
+                                <i class="fa-solid fa-image text-[#7c2356] mr-1"></i> Ảnh kỷ niệm / Bó hoa đính kèm
+                            </span>
+                            <button type="button" id="clearImgBtn" onclick="clearModalImage()" class="hidden text-xs font-semibold text-rose-600 hover:underline">
+                                <i class="fa-solid fa-xmark mr-0.5"></i> Xoá ảnh
+                            </button>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-12 gap-2.5 items-center">
+                            <!-- Upload File -->
+                            <label class="sm:col-span-5 flex items-center justify-center gap-2 border-2 border-dashed border-pink-300 bg-white hover:bg-pink-50/50 rounded-xl p-2.5 cursor-pointer transition text-center">
+                                <i class="fa-solid fa-cloud-arrow-up text-[#7c2356] text-lg"></i>
+                                <div class="text-left">
+                                    <span class="block text-xs font-bold text-slate-700">Tải ảnh từ máy lên</span>
+                                    <span class="block text-[10px] text-slate-400">Giữ nét & hỗ trợ căn chỉnh</span>
+                                </div>
+                                <input type="file" id="fileInput" accept="image/*" class="hidden" onchange="handleFileSelect(event)">
+                            </label>
+
+                            <!-- 6 Preset Bouquets -->
+                            <div class="sm:col-span-7 flex items-center gap-1.5 overflow-x-auto py-0.5">
+                                <button type="button" onclick="selectPresetPhoto('https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=900&q=85')" class="shrink-0 w-11 h-11 rounded-lg overflow-hidden border-2 border-white shadow-xs hover:scale-105 transition" title="Bó hoa hồng phấn">
+                                    <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=200&q=60" class="w-full h-full object-cover">
+                                </button>
+                                <button type="button" onclick="selectPresetPhoto('https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=900&q=85')" class="shrink-0 w-11 h-11 rounded-lg overflow-hidden border-2 border-white shadow-xs hover:scale-105 transition" title="Bó hoa pastel dịu dàng">
+                                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=200&q=60" class="w-full h-full object-cover">
+                                </button>
+                                <button type="button" onclick="selectPresetPhoto('https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=900&q=85')" class="shrink-0 w-11 h-11 rounded-lg overflow-hidden border-2 border-white shadow-xs hover:scale-105 transition" title="Hoa mẫu đơn hồng">
+                                    <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=200&q=60" class="w-full h-full object-cover">
+                                </button>
+                                <button type="button" onclick="selectPresetPhoto('https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?auto=format&fit=crop&w=900&q=85')" class="shrink-0 w-11 h-11 rounded-lg overflow-hidden border-2 border-white shadow-xs hover:scale-105 transition" title="Hoa tulip tươi tắn">
+                                    <img src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?auto=format&fit=crop&w=200&q=60" class="w-full h-full object-cover">
+                                </button>
+                                <button type="button" onclick="selectPresetPhoto('https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85')" class="shrink-0 w-11 h-11 rounded-lg overflow-hidden border-2 border-white shadow-xs hover:scale-105 transition" title="Hoa mùa xuân rực rỡ">
+                                    <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=200&q=60" class="w-full h-full object-cover">
+                                </button>
+                                <button type="button" onclick="selectPresetPhoto('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=85')" class="shrink-0 w-11 h-11 rounded-lg overflow-hidden border-2 border-white shadow-xs hover:scale-105 transition" title="Hoa hồng đỏ lãng mạn">
+                                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=200&q=60" class="w-full h-full object-cover">
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- BẢNG ĐIỀU KHIỂN CĂN CHỈNH ẢNH (HIỆN RA KHI CÓ ẢNH) -->
+                        <div id="imageAdjustPanel" class="hidden bg-white rounded-xl p-3 border border-pink-200/80 space-y-2.5 shadow-2xs">
+                            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 pb-2">
+                                <span class="text-[11px] font-bold text-[#7c2348] flex items-center gap-1">
+                                    <i class="fa-solid fa-crop-simple"></i> Tuỳ chỉnh hiển thị ảnh (Không lo bị cắt mặt)
+                                </span>
+                                <div class="flex items-center gap-1">
+                                    <button type="button" onclick="rotateModalImage()" class="px-2 py-0.5 rounded-md text-[11px] font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 transition" title="Xoay ảnh 90 độ">
+                                        <i class="fa-solid fa-rotate-right"></i> Xoay 90°
+                                    </button>
+                                    <button type="button" onclick="resetImageAdjustments()" class="px-2 py-0.5 rounded-md text-[11px] font-semibold bg-pink-50 hover:bg-pink-100 text-[#7c2348] transition">
+                                        Đặt lại
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- 3 Chế độ khung ảnh -->
+                            <div class="grid grid-cols-3 gap-1.5">
+                                <button type="button" id="fitBtn_natural" onclick="setImgFitMode('natural')" class="py-1.5 px-2 rounded-lg text-[11px] font-semibold border transition text-center">
+                                    ✨ Tự nhiên (Nguyên ảnh)
+                                </button>
+                                <button type="button" id="fitBtn_contain" onclick="setImgFitMode('contain')" class="py-1.5 px-2 rounded-lg text-[11px] font-semibold border transition text-center">
+                                    🖼️ Hiện trọn vẹn (Contain)
+                                </button>
+                                <button type="button" id="fitBtn_cover" onclick="setImgFitMode('cover')" class="py-1.5 px-2 rounded-lg text-[11px] font-semibold border transition text-center">
+                                    ✋ Lấp đầy + Kéo chỉnh
+                                </button>
+                            </div>
+
+                            <!-- Sliders: Zoom, Pan Y, Pan X, Chiều cao khung -->
+                            <div id="cropSlidersGroup" class="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-2 pt-1">
+                                <div>
+                                    <div class="flex justify-between text-[11px] font-medium text-slate-600 mb-0.5">
+                                        <span>🔍 Phóng to / Thu nhỏ:</span>
+                                        <span id="zoomValLabel" class="font-bold text-[#7c2356]">100%</span>
+                                    </div>
+                                    <input id="inputImgZoom" type="range" min="0.8" max="2.4" step="0.05" value="1" oninput="onSliderAdjust()" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                                </div>
+
+                                <div>
+                                    <div class="flex justify-between text-[11px] font-medium text-slate-600 mb-0.5">
+                                        <span>↕️ Chiều cao khung ảnh:</span>
+                                        <span id="heightValLabel" class="font-bold text-[#7c2356]">260px</span>
+                                    </div>
+                                    <input id="inputImgHeight" type="range" min="180" max="420" step="10" value="260" oninput="onSliderAdjust()" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                                </div>
+
+                                <div>
+                                    <div class="flex justify-between text-[11px] font-medium text-slate-600 mb-0.5">
+                                        <span>⬆️⬇️ Dịch Lên / Xuống (Mặt):</span>
+                                        <span id="panYValLabel" class="font-bold text-[#7c2356]">25%</span>
+                                    </div>
+                                    <input id="inputImgPanY" type="range" min="0" max="100" step="1" value="25" oninput="onSliderAdjust()" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                                </div>
+
+                                <div>
+                                    <div class="flex justify-between text-[11px] font-medium text-slate-600 mb-0.5">
+                                        <span>⬅️➡️ Dịch Trái / Phải:</span>
+                                        <span id="panXValLabel" class="font-bold text-[#7c2356]">50%</span>
+                                    </div>
+                                    <input id="inputImgPanX" type="range" min="0" max="100" step="1" value="50" oninput="onSliderAdjust()" class="w-full h-1.5 bg-slate-200 rounded-lg cursor-pointer">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Checkbox: Pin as Featured Card -->
+                        <label class="flex items-center gap-2 pt-1 cursor-pointer select-none">
+                            <input type="checkbox" id="inputIsFeatured" onchange="updatePreview()" class="w-4 h-4 rounded text-[#7c2356] focus:ring-[#7c2356]">
+                            <span class="text-xs font-semibold text-slate-700">
+                                📌 Đánh dấu là <strong>Thiệp nổi bật đầu bảng</strong> (hoặc nằm ở cột trái khi bật chế độ Thẻ lớn + Ngang)
+                            </span>
+                        </label>
+                    </div>
+
+                    <!-- Row 4: Màu thẻ, Kiểu ghim, Hashtag & Nhãn thời gian -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Màu nền thẻ</label>
+                            <select id="inputTint" onchange="handleTintChange()" class="w-full px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-medium bg-white">
+                                <option value="tint-mint">Xanh mint</option>
+                                <option value="tint-pink">Hồng phấn</option>
+                                <option value="tint-cream">Kem ấm</option>
+                                <option value="tint-lavender">Tím lavender</option>
+                                <option value="tint-peach">Đào pastel</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Kiểu đính thẻ</label>
+                            <select id="inputPinStyle" onchange="updatePreview()" class="w-full px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-medium bg-white">
+                                <option value="pushpin-gold">Đinh ghim Vàng 3D</option>
+                                <option value="washi-pink">Băng dính Hồng</option>
+                                <option value="washi-yellow">Băng dính Vàng</option>
+                                <option value="washi-blue">Băng dính Xanh</option>
+                                <option value="pushpin-rose">Đinh ghim Đỏ 3D</option>
+                                <option value="paperclip">Kẹp giấy hồng</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Hashtag</label>
+                            <input 
+                                id="inputHashtag" 
+                                type="text" 
+                                value="#GuiTronYeuThuong"
+                                oninput="updatePreview()"
+                                class="w-full px-2.5 py-1.5 rounded-xl border border-slate-200 text-xs font-semibold text-[#7c2348]"
+                            >
+                        </div>
+
+                        <div>
+                            <label class="block text-[10px] font-bold uppercase text-slate-500 mb-1">Nhãn thời gian</label>
+                            <div class="flex gap-1">
+                                <input 
+                                    id="inputCustomTime" 
+                                    type="text" 
+                                    placeholder="Vừa xong"
+                                    oninput="updatePreview()"
+                                    class="w-full px-2 py-1.5 rounded-xl border border-slate-200 text-xs"
+                                >
+                                <select id="inputBadgeColor" onchange="updatePreview()" class="px-1.5 py-1.5 rounded-xl border border-slate-200 text-xs bg-white" title="Màu nhãn thời gian">
+                                    <option value="emerald">Xanh lá</option>
+                                    <option value="burgundy">Đỏ tím</option>
+                                    <option value="slate">Xám tím</option>
+                                    <option value="ocean">Xanh biển</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Submit Row -->
+                    <div class="pt-2 flex items-center justify-end gap-2.5">
+                        <button type="button" onclick="closeWishModal()" class="px-4 py-2 rounded-full text-xs font-semibold text-slate-600 hover:bg-slate-100">
+                            Huỷ
+                        </button>
+                        <button type="submit" id="saveWishBtn" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#7c2356] hover:bg-[#631938] text-white text-sm font-semibold shadow-md transition-all active:scale-95">
+                            <i class="fa-solid fa-check"></i>
+                            <span id="saveWishBtnText">Đăng lời chúc</span>
+                        </button>
+                    </div>
+                </form>
+
+                <!-- Live Preview Column (5 cols) -->
+                <div class="lg:col-span-5 bg-[#f5f3f5] p-5 sm:p-6 flex flex-col justify-center items-center">
+                    <div class="flex items-center justify-between w-full max-w-sm mb-3">
+                        <span class="text-[11px] font-bold uppercase tracking-widest text-slate-400">
+                            Xem trước tấm thiệp
+                        </span>
+                        <span id="dragPhotoHint" class="hidden text-[11px] font-semibold text-[#7c2356] bg-pink-100/80 px-2.5 py-0.5 rounded-full">
+                            ✋ Kéo trực tiếp trên ảnh để căn vị trí
+                        </span>
+                    </div>
+
+                    <div class="w-full max-w-sm pt-2">
+                        <div class="wish-card-outer" style="transform: rotate(-0.6deg);">
+                            <div id="previewDeco" class="pushpin-3d pushpin-gold"></div>
+
+                            <div id="previewTintBox" class="tint-mint rounded-2xl p-4 transition-colors">
+                                <div class="flex items-start justify-between gap-2 mb-3">
+                                    <div>
+                                        <span class="block text-[10px] font-bold uppercase tracking-widest text-[#7c2348]">TỚI:</span>
+                                        <h3 id="previewRecipient" class="font-serif text-xl font-bold text-slate-900">Bà</h3>
+                                    </div>
+                                    <span id="previewTimeBadge" class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold badge-emerald">
+                                        Vừa xong
+                                    </span>
+                                </div>
+
+                                <!-- Interactive Preview Image Box -->
+                                <div id="previewImgWrapper" class="hidden mb-3.5 rounded-xl overflow-hidden bg-white p-1.5 shadow-xs relative select-none">
+                                    <div id="previewImgInnerBox" class="relative w-full overflow-hidden rounded-lg bg-slate-100 cursor-move" title="Giữ chuột hoặc chạm tay kéo để dịch chuyển vị trí ảnh">
+                                        <!-- Blurred backdrop for 'contain' mode -->
+                                        <img id="previewImgBlurBg" src="" alt="" class="hidden absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-45 pointer-events-none">
+                                        <!-- Main adjustable image -->
+                                        <img id="previewImgEl" src="" alt="Preview" draggable="false" class="relative z-10 w-full transition-transform duration-75 pointer-events-none">
+                                    </div>
+                                </div>
+
+                                <p id="previewMessage" class="text-slate-800 text-sm leading-relaxed font-medium mb-3.5 break-words">
+                                    “Nhập lời chúc của bạn ở cột bên trái...”
+                                </p>
+
+                                <div class="flex items-center gap-1.5 text-xs font-semibold text-[#7c2348] mb-3">
+                                    <i class="fa-regular fa-paper-plane text-[11px]"></i>
+                                    <span>Từ: <span id="previewSender">Cháu Nguyên</span></span>
+                                </div>
+
+                                <div class="bg-white/90 rounded-xl px-3.5 py-2 flex items-center justify-between text-xs">
+                                    <span id="previewHashtag" class="font-semibold text-slate-600">#GuiTronYeuThuong</span>
+                                    <div class="flex items-center gap-3 text-slate-400">
+                                        <span><i class="fa-regular fa-heart"></i> 0</span>
+                                        <i class="fa-regular fa-copy"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         MODAL 2: SAO LƯU & KHÔI PHỤC DỮ LIỆU (KHÔNG MẤT LỜI CHÚC KHI THAY CODE)
+         ========================================== -->
+    <div id="backupModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-7 shadow-2xl border border-pink-100 my-auto">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                    <span class="w-10 h-10 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center text-lg border border-emerald-200">
+                        <i class="fa-solid fa-shield-heart"></i>
+                    </span>
+                    <div>
+                        <h3 class="font-serif text-xl font-bold text-slate-800">Sao lưu & Khôi phục Lời chúc</h3>
+                        <p class="text-xs text-slate-500">Giữ nguyên toàn bộ lời chúc và hình ảnh của bạn khi thay code mới</p>
+                    </div>
+                </div>
+                <button onclick="closeBackupModal()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Tabs -->
+            <div class="flex border-b border-slate-200 mb-5 gap-2">
+                <button id="tabBtn_export" onclick="switchBackupTab('export')" class="px-4 py-2 text-xs font-bold border-b-2 border-[#7c2356] text-[#7c2356] transition">
+                    1. Sao lưu (Tải về / Copy)
+                </button>
+                <button id="tabBtn_restore" onclick="switchBackupTab('restore')" class="px-4 py-2 text-xs font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-700 transition">
+                    2. Khôi phục / Nhập dữ liệu
+                </button>
+                <button id="tabBtn_rescue" onclick="switchBackupTab('rescue')" class="px-4 py-2 text-xs font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-700 transition">
+                    3. Lấy lời chúc từ trang cũ
+                </button>
+            </div>
+
+            <!-- TAB 1: EXPORT / BACKUP -->
+            <div id="backupTab_export" class="space-y-4">
+                <div class="bg-emerald-50/70 border border-emerald-200 rounded-2xl p-4 text-xs text-emerald-950 leading-relaxed">
+                    <p class="font-bold mb-1"><i class="fa-solid fa-circle-check text-emerald-600 mr-1"></i> Tự động lưu trên trình duyệt:</p>
+                    <p>Mọi lời chúc bạn đăng đều đã được tự động lưu vào bộ nhớ trình duyệt (<code class="bg-white px-1.5 py-0.5 rounded border">localStorage</code>). Nếu bạn chỉ sửa/thay code trực tiếp trong cùng một file hoặc cùng trình duyệt, lời chúc sẽ <strong>tự động hiện lại</strong>! Ngoài ra, bạn có thể tải file sao lưu dự phòng bên dưới:</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3">
+                    <button onclick="downloadJsonBackup()" class="flex-1 min-w-[200px] py-3 px-4 rounded-2xl bg-[#7c2356] hover:bg-[#631938] text-white text-xs font-bold shadow-md flex items-center justify-center gap-2 transition">
+                        <i class="fa-solid fa-file-arrow-down text-sm"></i>
+                        <span>Tải file backup_loichuc.json</span>
+                    </button>
+                    <button onclick="copyJsonBackup()" class="flex-1 min-w-[200px] py-3 px-4 rounded-2xl bg-pink-50 hover:bg-pink-100 text-[#7c2348] border border-pink-200 text-xs font-bold flex items-center justify-center gap-2 transition">
+                        <i class="fa-regular fa-copy text-sm"></i>
+                        <span>Copy mã dữ liệu vào bộ nhớ tạm</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- TAB 2: RESTORE / IMPORT -->
+            <div id="backupTab_restore" class="hidden space-y-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <label class="flex items-center justify-center gap-2.5 p-3.5 rounded-2xl border-2 border-dashed border-emerald-300 bg-emerald-50/40 hover:bg-emerald-50 cursor-pointer transition">
+                        <i class="fa-solid fa-file-import text-emerald-700 text-lg"></i>
+                        <div class="text-left">
+                            <span class="block text-xs font-bold text-slate-800">Chọn file .json hoặc .html cũ</span>
+                            <span class="block text-[10px] text-slate-500">Tự động tách lời chúc & ảnh</span>
+                        </div>
+                        <input type="file" accept=".json,.html,.htm,.txt" class="hidden" onchange="handleBackupFileUpload(event)">
+                    </label>
+
+                    <button onclick="scanBrowserStorageManual()" class="flex items-center justify-center gap-2.5 p-3.5 rounded-2xl border border-pink-200 bg-pink-50/50 hover:bg-pink-100/70 transition text-left">
+                        <i class="fa-solid fa-magnifying-glass-plus text-[#7c2356] text-lg"></i>
+                        <div>
+                            <span class="block text-xs font-bold text-[#7c2348]">Quét bộ nhớ trình duyệt</span>
+                            <span class="block text-[10px] text-slate-500">Tìm lại lời chúc từ phiên bản trước</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-slate-700 mb-1">
+                        Hoặc dán mã dữ liệu (JSON) vào ô bên dưới:
+                    </label>
+                    <textarea id="restoreJsonTextarea" rows="4" placeholder='Dán nội dung file backup hoặc kết quả lệnh lấy dữ liệu vào đây...' class="w-full p-3 rounded-xl border border-slate-200 text-xs font-mono focus:outline-none focus:border-[#7c2356]"></textarea>
+                </div>
+
+                <div class="flex flex-wrap items-center justify-between gap-2 pt-1">
+                    <label class="flex items-center gap-2 text-xs text-slate-600 cursor-pointer">
+                        <input type="checkbox" id="mergeRestoreCheckbox" checked class="rounded text-[#7c2356]">
+                        <span>Gộp chung với các lời chúc đang có (không xoá thẻ hiện tại)</span>
+                    </label>
+                    <button onclick="restoreFromTextarea()" class="px-5 py-2.5 rounded-full bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-sm transition">
+                        <i class="fa-solid fa-check mr-1"></i> Khôi phục ngay
+                    </button>
+                </div>
+            </div>
+
+            <!-- TAB 3: RESCUE FROM OLD BROWSER TAB -->
+            <div id="backupTab_rescue" class="hidden space-y-3.5 text-xs text-slate-700 leading-relaxed">
+                <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4 space-y-2">
+                    <p class="font-bold text-amber-950">
+                        💡 Nếu bạn đã nhập 1 loạt lời chúc ở tab web cũ mà chưa kịp tải file lưu:
+                    </p>
+                    <ol class="list-decimal list-inside space-y-1.5 text-slate-700">
+                        <li>Mở lại tab trình duyệt đang hiển thị các lời chúc cũ của bạn.</li>
+                        <li>Nhấn phím <strong>F12</strong> (hoặc chuột phải chọn <strong>Inspect / Kiểm tra</strong>) ➡️ chuyển sang thẻ <strong>Console</strong>.</li>
+                        <li>Bấm nút <strong>Copy lệnh lấy dữ liệu</strong> bên dưới, dán vào Console của tab cũ rồi nhấn <strong>Enter</strong>:</li>
+                    </ol>
+
+                    <div class="flex items-center justify-between bg-slate-900 text-pink-300 px-3.5 py-2.5 rounded-xl font-mono text-[11px] mt-2">
+                        <code id="rescueCmdCode">copy(JSON.stringify(localStorage))</code>
+                        <button onclick="copyRescueCommand()" class="px-2.5 py-1 rounded-lg bg-pink-600 hover:bg-pink-500 text-white font-sans font-semibold text-[11px]">
+                            Copy lệnh
+                        </button>
+                    </div>
+
+                    <p class="text-[11px] text-slate-600 pt-1">
+                        4. Sau khi nhấn Enter ở tab cũ, toàn bộ lời chúc + hình ảnh đã nằm trong bộ nhớ tạm (Clipboard). Bạn chỉ cần quay lại đây, bấm sang mục <strong>"2. Khôi phục / Nhập dữ liệu"</strong>, dán (Ctrl+V) vào ô trống và bấm <strong>Khôi phục ngay</strong> là xong!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ==========================================
+         MODAL 3: CHỈNH SỬA TIÊU ĐỀ & PHỤ ĐỀ TRANG
+         ========================================== -->
+    <div id="settingsModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/50 backdrop-blur-xs">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-pink-100">
+            <h3 class="font-serif text-xl font-bold text-[#7c2348] mb-1">Tuỳ chỉnh tiêu đề Tường lời chúc</h3>
+            <p class="text-xs text-slate-500 mb-4">Đặt tên riêng cho gia đình hoặc người thương của bạn</p>
+
+            <div class="space-y-3 mb-5">
+                <div>
+                    <label class="block text-xs font-bold text-slate-600 mb-1">Tiêu đề chính</label>
+                    <input id="settingTitleInput" type="text" value="Lời chúc 20/10" placeholder="VD: Lời chúc 20/10, Gửi Bà & Mẹ..." class="w-full px-3.5 py-2 rounded-xl border border-pink-200 text-sm font-bold text-[#7c2348]">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-600 mb-1">Dòng chữ phụ bên dưới</label>
+                    <input id="settingSubtitleInput" type="text" value="DÀNH TẶNG NHỮNG NGƯỜI PHỤ NỮ YÊU THƯƠNG" placeholder="VD: ĐẠI GIA ĐÌNH MÌNH — GỬI TRỌN YÊU THƯƠNG" class="w-full px-3.5 py-2 rounded-xl border border-slate-200 text-xs font-semibold uppercase tracking-wider text-slate-700">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-600 mb-1">Hashtag mặc định trên thiệp</label>
+                    <input id="settingHashtagInput" type="text" value="#GuiTronYeuThuong" placeholder="VD: #GiaDinhMinh2010" class="w-full px-3.5 py-2 rounded-xl border border-slate-200 text-xs font-semibold text-[#7c2348]">
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-2">
+                <button type="button" onclick="closeSettingsModal()" class="px-4 py-2 rounded-full text-xs font-semibold text-slate-500 hover:bg-slate-100">Huỷ</button>
+                <button type="button" onclick="saveBoardSettings()" class="px-5 py-2 rounded-full text-xs font-semibold bg-[#7c2356] text-white hover:bg-[#631938]">Lưu thay đổi</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         MODAL 4: XÁC NHẬN XOÁ
+         ========================================== -->
+    <div id="deleteConfirmModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/50 backdrop-blur-xs">
+        <div class="bg-white rounded-2xl max-w-sm w-full p-6 shadow-2xl border border-rose-100 text-center">
+            <div class="w-12 h-12 rounded-full bg-rose-50 text-rose-600 flex items-center justify-center text-xl mx-auto mb-3">
+                <i class="fa-regular fa-trash-can"></i>
+            </div>
+            <h3 id="deleteModalTitle" class="font-serif text-lg font-bold text-slate-800 mb-1">Xoá lời chúc này?</h3>
+            <p id="deleteModalDesc" class="text-xs text-slate-500 mb-5">Tấm thiệp này sẽ được gỡ khỏi tường lời chúc.</p>
+            <div class="flex justify-center gap-2.5">
+                <button onclick="closeDeleteModal()" class="px-4 py-2 rounded-full text-xs font-semibold text-slate-600 bg-slate-100 hover:bg-slate-200">Giữ lại</button>
+                <button id="confirmDeleteBtn" class="px-5 py-2 rounded-full text-xs font-semibold text-white bg-rose-600 hover:bg-rose-700">Xoá ngay</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         MODAL 5: TẢI FILE WEB ĐÓNG GÓI SẴN & LẤY LINK .WEB.APP
+         ========================================== -->
+    <div id="deployGuideModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-xl w-full p-6 sm:p-7 shadow-2xl border border-pink-100 my-auto">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-2.5">
+                    <span class="w-9 h-9 rounded-xl bg-pink-50 text-[#7c2348] flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </span>
+                    <div>
+                        <h3 class="font-serif text-xl font-bold text-[#7c2348]">Đóng gói Web & Lấy link gửi cho gia đình</h3>
+                        <p class="text-xs text-slate-500">Lưu toàn bộ lời chúc & vị trí ảnh bạn vừa chỉnh vào 1 file duy nhất</p>
+                    </div>
+                </div>
+                <button onclick="closeDeployGuideModal()" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="space-y-3 text-xs text-slate-600 leading-relaxed bg-pink-50/50 p-4 rounded-2xl border border-pink-100 mb-5">
+                <p class="font-semibold text-slate-800">
+                    ✨ Cách đóng gói toàn bộ lời chúc đã nhập để đưa lên mạng cho mọi người xem:
+                </p>
+                <ol class="list-decimal list-inside space-y-2 text-slate-700">
+                    <li>
+                        <strong>Bước 1:</strong> Tự thêm lời chúc, tải ảnh và kéo chỉnh khung ảnh vừa ý ngay trên trang này.
+                    </li>
+                    <li>
+                        <strong>Bước 2:</strong> Bấm nút <strong>"Tải file index.html (Đã nhúng sẵn lời chúc & ảnh)"</strong> bên dưới. Toàn bộ dữ liệu bạn vừa tạo sẽ được gắn cứng vào bên trong file này.
+                    </li>
+                    <li>
+                        <strong>Bước 3 (Đưa lên web miễn phí trong 30 giây):</strong>
+                        <ul class="list-disc list-inside pl-4 mt-1 space-y-1 text-slate-600">
+                            <li><strong>Cách nhanh nhất (Kéo thả):</strong> Truy cập <a href="https://app.netlify.com/drop" target="_blank" class="text-[#7c2356] underline font-semibold">app.netlify.com/drop</a> hoặc <a href="https://tiiny.host" target="_blank" class="text-[#7c2356] underline font-semibold">tiiny.host</a>, kéo file <code class="bg-white px-1.5 py-0.5 rounded border">index.html</code> vừa tải thả vào là có ngay link gửi vào nhóm Zalo gia đình!</li>
+                            <li><strong>Firebase Hosting (`.web.app`):</strong> Đẩy file <code class="bg-white px-1.5 py-0.5 rounded border">index.html</code> lên Firebase Hosting để có link đuôi <code class="text-[#7c2356] font-semibold">.web.app</code>.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-3">
+                <button onclick="downloadBakedHtml()" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#7c2356] hover:bg-[#631938] text-white text-xs font-semibold shadow-md transition">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Tải file index.html (Đã nhúng sẵn lời chúc & ảnh)</span>
+                </button>
+                <button onclick="closeDeployGuideModal()" class="px-4 py-2 rounded-full text-xs font-semibold text-slate-600 hover:bg-slate-100">
+                    Đóng
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         MODAL 6: LIGHTBOX XEM ẢNH PHÓNG TO RÕ NÉT
+         ========================================== -->
+    <div id="lightboxModal" onclick="closeLightbox()" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-black/80 backdrop-blur-xs cursor-zoom-out">
+        <img id="lightboxImg" src="" alt="Phóng to" class="max-w-full max-h-[90vh] rounded-2xl shadow-2xl object-contain">
+    </div>
+
+    <!-- TOAST CONTAINER -->
+    <div id="toastContainer" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 flex flex-col gap-2 pointer-events-none"></div>
+
+    <!-- ==========================================
+         BAKED-IN DATA SLOT (DÀNH CHO FILE HTML TẢI VỀ)
+         ========================================== -->
+    <script id="bakedDataScript">
+        window.__BAKED_WISHES__ = [];
+        window.__BAKED_SETTINGS__ = {
+            title: "Lời chúc 20/10",
+            subtitle: "DÀNH TẶNG NHỮNG NGƯỜI PHỤ NỮ YÊU THƯƠNG",
+            defaultHashtag: "#GuiTronYeuThuong",
+            layoutMode: "row1"
+        };
+    </script>
+
+    <!-- ==========================================
+         MAIN APPLICATION & STORAGE LOGIC
+         ========================================== -->
+    <script>
+        // ------------------------------------------
+        // 1. STATE & TỰ ĐỘNG QUÉT DỮ LIỆU CŨ TRONG TRÌNH DUYỆT
+        // ------------------------------------------
+        const STORAGE_KEY_WISHES = 'wish_wall_20_10_family_items_v2';
+        const STORAGE_KEY_SETTINGS = 'wish_wall_20_10_family_settings_v2';
+
+        let wishes = [];
+        let boardSettings = {
+            title: 'Lời chúc 20/10',
+            subtitle: 'DÀNH TẶNG NHỮNG NGƯỜI PHỤ NỮ YÊU THƯƠNG',
+            defaultHashtag: '#GuiTronYeuThuong',
+            layoutMode: 'row1' // 'row1' | 'split' | 'row2'
+        };
+
+        let searchQuery = '';
+        let likedIds = new Set();
+        let petalsEnabled = true;
+
+        // Trạng thái căn chỉnh ảnh trong Modal
+        let modalImageBase64OrUrl = '';
+        let modalImgConfig = {
+            fitMode: 'cover', // 'natural' | 'contain' | 'cover'
+            zoom: 1,
+            panX: 50,
+            panY: 22, // Mặc định ưu tiên phần trên (22%) để không bị cắt mặt khi chụp ảnh chân dung
+            frameHeight: 260
+        };
+
+        // Kho gợi ý câu chúc 100% Cá nhân & Gia đình
+        const FAMILY_SUGGESTIONS = {
+            mom: [
+                "Chúc Bà ngày 20/10 thật nhiều sức khoẻ, luôn nở nụ cười rạng rỡ và mãi là điểm tựa ấm áp nhất của cả gia đình mình ạ!",
+                "Chúc Mẹ yêu ngày 20/10 thật nhiều sức khoẻ, luôn trẻ trung, hạnh phúc và ngập tràn niềm vui bên con cháu!",
+                "Nhân ngày Phụ nữ Việt Nam 20/10, con kính chúc Bà và Mẹ luôn bình an, mạnh khoẻ và mỗi ngày đều tràn ngập tiếng cười!",
+                "Tặng Mẹ một bó hoa tươi thắm nhất! Cảm ơn Mẹ vì tất cả những yêu thương và hy sinh thầm lặng dành cho gia đình mình."
+            ],
+            sister: [
+                "Chúc chị gái ngày 20/10 ngập tràn hoa, quà và những điều ngọt ngào nhất! Cảm ơn chị đã luôn yêu thương và nhường nhịn em!",
+                "20/10 chúc em gái luôn xinh đẹp rạng ngời, học tập tốt và mọi dự định đều thuận buồm xuôi gió nhé!",
+                "Chúc chị yêu 20/10 vui hết nấc, ngày càng trẻ đẹp và lúc nào cũng rạng rỡ như ánh nắng ban mai nha!"
+            ],
+            love: [
+                "Tặng em một bó hoa cùng trọn vẹn yêu thương. Chúc công chúa của anh ngày 20/10 thật rạng rỡ, hạnh phúc và luôn mỉm cười bên anh nhé!",
+                "Chúc người thương của anh có một ngày 20/10 thật ngọt ngào! Cảm ơn em đã đến và làm mỗi ngày của anh đều trở nên đặc biệt.",
+                "20/10 chúc vợ yêu luôn xinh đẹp, vui vẻ và hạnh phúc. Cảm ơn em đã luôn đồng hành và vun đắp cho tổ ấm nhỏ của chúng mình!"
+            ]
+        };
+
+        // Chuẩn hoá 1 đối tượng lời chúc từ bất kỳ phiên bản cũ nào
+        function normalizeWishItem(raw, index = 0) {
+            if (!raw || typeof raw !== 'object') return null;
+            const recipient = raw.recipient || raw.to || raw.receiver || raw.name || '';
+            const message = raw.message || raw.content || raw.text || raw.wish || '';
+            if (!recipient && !message) return null;
+
+            return {
+                id: raw.id || ('wish_' + Date.now() + '_' + index),
+                recipient: String(recipient || 'Người thương'),
+                sender: String(raw.sender || raw.from || raw.author || 'Ẩn danh'),
+                message: String(message || ''),
+                hashtag: String(raw.hashtag || raw.tag || '#GuiTronYeuThuong'),
+                imageUrl: raw.imageUrl || raw.image || raw.photo || raw.img || '',
+                imgFitMode: raw.imgFitMode || 'cover',
+                imgZoom: typeof raw.imgZoom === 'number' ? raw.imgZoom : 1,
+                imgPanX: typeof raw.imgPanX === 'number' ? raw.imgPanX : 50,
+                imgPanY: typeof raw.imgPanY === 'number' ? raw.imgPanY : 25,
+                imgHeight: typeof raw.imgHeight === 'number' ? raw.imgHeight : 260,
+                tint: raw.tint || 'tint-mint',
+                pinStyle: raw.pinStyle || 'pushpin-gold',
+                customTime: raw.customTime || raw.timeLabel || '',
+                badgeColor: raw.badgeColor || 'emerald',
+                isFeatured: Boolean(raw.isFeatured || raw.pinned),
+                rotation: typeof raw.rotation === 'number' ? raw.rotation : Number(((Math.random() * 2) - 1).toFixed(2)),
+                likes: Number(raw.likes || 0),
+                createdAt: Number(raw.createdAt || raw.timestamp || (Date.now() - index * 1000))
+            };
+        }
+
+        // Tự động tìm và khôi phục lời chúc từ localStorage hoặc dữ liệu đóng gói sẵn
+        function loadAndRecoverData() {
+            // 1. Kiểm tra cài đặt
+            try {
+                const savedSettings = localStorage.getItem(STORAGE_KEY_SETTINGS);
+                if (savedSettings) {
+                    boardSettings = { ...boardSettings, ...JSON.parse(savedSettings) };
+                } else if (window.__BAKED_SETTINGS__) {
+                    boardSettings = { ...boardSettings, ...window.__BAKED_SETTINGS__ };
+                }
+            } catch (e) {
+                console.warn(e);
+            }
+
+            // 2. Thu thập lời chúc từ khóa chính + dữ liệu nhúng trong file HTML + các khóa cũ trong localStorage
+            const collectedMap = new Map();
+
+            // Nguồn A: Nhúng trực tiếp trong file HTML (window.__BAKED_WISHES__)
+            if (Array.isArray(window.__BAKED_WISHES__)) {
+                window.__BAKED_WISHES__.forEach((item, idx) => {
+                    const norm = normalizeWishItem(item, idx);
+                    if (norm) collectedMap.set(norm.id, norm);
+                });
+            }
+
+            // Nguồn B: Khóa chính trong localStorage
+            try {
+                const primaryRaw = localStorage.getItem(STORAGE_KEY_WISHES);
+                if (primaryRaw) {
+                    const parsed = JSON.parse(primaryRaw);
+                    if (Array.isArray(parsed)) {
+                        parsed.forEach((item, idx) => {
+                            const norm = normalizeWishItem(item, idx);
+                            if (norm) collectedMap.set(norm.id, norm);
+                        });
+                    }
+                }
+            } catch (e) {
+                console.warn(e);
+            }
+
+            // Nguồn C: Tự động quét mọi khóa khác trong localStorage phòng trường hợp bản cũ lưu tên khóa khác
+            try {
+                for (let i = 0; i < localStorage.length; i++) {
+                    const key = localStorage.key(i);
+                    if (!key || key === STORAGE_KEY_WISHES || key === STORAGE_KEY_SETTINGS) continue;
+                    const val = localStorage.getItem(key);
+                    if (!val || (!val.startsWith('[') && !val.startsWith('{'))) continue;
+
+                    const parsed = JSON.parse(val);
+                    const candidateArr = Array.isArray(parsed) ? parsed : (Array.isArray(parsed.wishes) ? parsed.wishes : null);
+                    if (candidateArr && candidateArr.length > 0) {
+                        candidateArr.forEach((item, idx) => {
+                            const norm = normalizeWishItem(item, idx);
+                            // Bỏ qua các thẻ mẫu CLB Guitar cũ nếu có
+                            if (norm && !String(norm.hashtag).includes('CLBGuitar')) {
+                                const sig = `${norm.recipient}|${norm.message}`;
+                                const exists = Array.from(collectedMap.values()).some(w => `${w.recipient}|${w.message}` === sig);
+                                if (!exists) {
+                                    collectedMap.set(norm.id, norm);
+                                }
+                            }
+                        });
+                    }
+                }
+            } catch (e) {
+                console.warn(e);
+            }
+
+            wishes = Array.from(collectedMap.values());
+            saveToLocalStorage();
+        }
+
+        function saveToLocalStorage() {
+            try {
+                localStorage.setItem(STORAGE_KEY_WISHES, JSON.stringify(wishes));
+                localStorage.setItem(STORAGE_KEY_SETTINGS, JSON.stringify(boardSettings));
+            } catch (e) {
+                console.warn('Bộ nhớ trình duyệt đầy, hãy dùng nút Tải file Backup hoặc Xuất HTML:', e);
+            }
+        }
+
+        // ------------------------------------------
+        // 2. HIỂN THỊ BẢNG CUỘN NGANG (HORIZONTAL CAROUSEL)
+        // ------------------------------------------
+        function formatTimeLabel(wish) {
+            if (wish.customTime && wish.customTime.trim() !== '') {
+                return wish.customTime.trim();
+            }
+            if (!wish.createdAt) return 'Vừa xong';
+            const diffSec = Math.floor((Date.now() - wish.createdAt) / 1000);
+            if (diffSec < 90) return 'Vừa xong';
+            const diffMin = Math.floor(diffSec / 60);
+            if (diffMin < 60) return `${diffMin} phút trước`;
+            const diffHr = Math.floor(diffMin / 60);
+            if (diffHr < 24) return `${diffHr} giờ trước`;
+            return `${Math.floor(diffHr / 24)} ngày trước`;
+        }
+
+        function getBadgeColorClass(color) {
+            if (color === 'emerald') return 'badge-emerald';
+            if (color === 'slate') return 'badge-slate';
+            if (color === 'ocean') return 'badge-ocean';
+            return 'badge-burgundy';
+        }
+
+        function getDecorationHtml(pinStyle) {
+            if (pinStyle === 'pushpin-gold') return `<div class="pushpin-3d pushpin-gold"></div>`;
+            if (pinStyle === 'pushpin-rose') return `<div class="pushpin-3d pushpin-rose"></div>`;
+            if (pinStyle === 'paperclip') return `<div class="paperclip-deco"></div>`;
+            return `<div class="washi-tape ${pinStyle || 'washi-pink'}"></div>`;
+        }
+
+        // Tạo phần HTML khung ảnh đã áp dụng đúng thông số Zoom, Pan X/Y & Chế độ hiển thị của người dùng
+        function buildCardImageHtml(wish) {
+            if (!wish.imageUrl) return '';
+            const fitMode = wish.imgFitMode || 'cover';
+            const zoom = typeof wish.imgZoom === 'number' ? wish.imgZoom : 1;
+            const panX = typeof wish.imgPanX === 'number' ? wish.imgPanX : 50;
+            const panY = typeof wish.imgPanY === 'number' ? wish.imgPanY : 25;
+            const frameHeight = typeof wish.imgHeight === 'number' ? wish.imgHeight : 260;
+            const safeUrl = escapeHtml(wish.imageUrl);
+            const safeRec = escapeHtml(wish.recipient);
+
+            if (fitMode === 'natural') {
+                return `
+                    <div onclick="openLightbox('${wish.id}')" class="mb-4 rounded-2xl overflow-hidden bg-white p-1.5 shadow-xs cursor-zoom-in">
+                        <div class="overflow-hidden rounded-xl bg-slate-50">
+                            <img src="${safeUrl}" alt="Ảnh tặng ${safeRec}" class="w-full h-auto block transition-transform duration-200" style="transform: scale(${zoom}); transform-origin: ${panX}% ${panY}%;">
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (fitMode === 'contain') {
+                return `
+                    <div onclick="openLightbox('${wish.id}')" class="mb-4 rounded-2xl overflow-hidden bg-white p-1.5 shadow-xs cursor-zoom-in">
+                        <div class="relative w-full overflow-hidden rounded-xl bg-slate-100" style="height: ${frameHeight}px;">
+                            <img src="${safeUrl}" alt="" class="absolute inset-0 w-full h-full object-cover blur-md scale-110 opacity-45 pointer-events-none">
+                            <img src="${safeUrl}" alt="Ảnh tặng ${safeRec}" class="relative z-10 w-full h-full object-contain transition-transform duration-200" style="transform: scale(${zoom}); transform-origin: ${panX}% ${panY}%;">
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Mặc định: 'cover' với object-position (panX% panY%) và scale(zoom)
+            return `
+                <div onclick="openLightbox('${wish.id}')" class="mb-4 rounded-2xl overflow-hidden bg-white p-1.5 shadow-xs cursor-zoom-in">
+                    <div class="relative w-full overflow-hidden rounded-xl bg-slate-100" style="height: ${frameHeight}px;">
+                        <img 
+                            src="${safeUrl}" 
+                            alt="Ảnh tặng ${safeRec}"
+                            class="w-full h-full object-cover transition-transform duration-200"
+                            style="object-position: ${panX}% ${panY}%; transform: scale(${zoom}); transform-origin: ${panX}% ${panY}%;"
+                        >
+                    </div>
+                </div>
+            `;
+        }
+
+        function buildCardHtml(wish, widthClass = 'w-[340px] sm:w-[385px] shrink-0 snap-start') {
+            const rot = typeof wish.rotation === 'number' ? wish.rotation : -0.6;
+            const tintClass = wish.tint || 'tint-mint';
+            const decoHtml = getDecorationHtml(wish.pinStyle);
+            const badgeClass = getBadgeColorClass(wish.badgeColor);
+            const timeText = formatTimeLabel(wish);
+            const isLiked = likedIds.has(wish.id);
+
+            return `
+                <article class="wish-card-outer group ${widthClass}" style="transform: rotate(${rot}deg);">
+                    ${decoHtml}
+
+                    <!-- Nút điều khiển nhanh khi di chuột lên thẻ (Dịch trái/phải, Ghim, Sửa, Xoá) -->
+                    <div class="absolute top-3 right-3 z-30 hidden group-hover:flex items-center gap-1 bg-white/95 backdrop-blur-xs px-2 py-1 rounded-full shadow-md border border-pink-100">
+                        <button onclick="moveWishOrder('${wish.id}', -1)" class="w-6 h-6 rounded-full hover:bg-pink-50 text-[11px] text-slate-500 hover:text-[#7c2356] flex items-center justify-center" title="Chuyển sang trái">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button onclick="moveWishOrder('${wish.id}', 1)" class="w-6 h-6 rounded-full hover:bg-pink-50 text-[11px] text-slate-500 hover:text-[#7c2356] flex items-center justify-center" title="Chuyển sang phải">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        <button onclick="togglePinFeatured('${wish.id}')" class="w-6 h-6 rounded-full hover:bg-pink-50 text-xs ${wish.isFeatured ? 'text-[#7c2356] font-bold' : 'text-slate-400'} flex items-center justify-center" title="${wish.isFeatured ? 'Bỏ ghim nổi bật' : 'Ghim nổi bật lên đầu'}">
+                            <i class="fa-solid fa-thumbtack"></i>
+                        </button>
+                        <button onclick="openEditWishModal('${wish.id}')" class="w-6 h-6 rounded-full hover:bg-pink-50 text-xs text-slate-600 hover:text-[#7c2356] flex items-center justify-center" title="Chỉnh sửa lời chúc & căn lại ảnh">
+                            <i class="fa-solid fa-pen"></i>
+                        </button>
+                        <button onclick="promptDeleteSingleWish('${wish.id}')" class="w-6 h-6 rounded-full hover:bg-rose-50 text-xs text-slate-400 hover:text-rose-600 flex items-center justify-center" title="Xoá lời chúc này">
+                            <i class="fa-regular fa-trash-can"></i>
+                        </button>
+                    </div>
+
+                    <div class="${tintClass} rounded-[18px] p-5 transition-colors">
+                        <!-- Header: TỚI + Tên người nhận & Nhãn thời gian -->
+                        <div class="flex items-start justify-between gap-3 mb-3.5">
+                            <div>
+                                <span class="block text-[10px] font-bold uppercase tracking-[0.14em] text-[#7c2348] mb-0.5">
+                                    TỚI:
+                                </span>
+                                <h2 class="font-serif text-[22px] font-bold text-slate-900 leading-tight">
+                                    ${escapeHtml(wish.recipient)}
+                                </h2>
+                            </div>
+                            <span class="px-3 py-1 rounded-full text-[11px] font-semibold ${badgeClass} shadow-xs whitespace-nowrap">
+                                ${escapeHtml(timeText)}
+                            </span>
+                        </div>
+
+                        <!-- Khung ảnh đã căn chỉnh -->
+                        ${buildCardImageHtml(wish)}
+
+                        <!-- Nội dung lời chúc -->
+                        <p class="text-slate-800 text-[15px] leading-[1.65] font-medium mb-4 break-words">
+                            “${escapeHtml(wish.message)}”
+                        </p>
+
+                        <!-- Người gửi -->
+                        <div class="flex items-center gap-1.5 text-xs font-semibold text-[#7c2348] mb-4">
+                            <i class="fa-regular fa-paper-plane text-[11px]"></i>
+                            <span>Từ: ${escapeHtml(wish.sender || 'Ẩn danh')}</span>
+                        </div>
+
+                        <!-- Footer Pill Bar: Hashtag + Tim + Copy -->
+                        <div class="bg-white/95 rounded-xl px-3.5 py-2.5 flex items-center justify-between text-xs shadow-xs border border-pink-100/50">
+                            <span class="font-semibold text-slate-600 truncate max-w-[180px]">
+                                ${escapeHtml(wish.hashtag || '#GuiTronYeuThuong')}
+                            </span>
+
+                            <div class="flex items-center gap-3.5">
+                                <button onclick="likeWish('${wish.id}')" class="flex items-center gap-1 font-semibold ${isLiked ? 'text-rose-600' : 'text-slate-500 hover:text-rose-600'} transition">
+                                    <i class="${isLiked ? 'fa-solid' : 'fa-regular'} fa-heart text-sm"></i>
+                                    <span>${wish.likes || 0}</span>
+                                </button>
+                                <button onclick="copyWish('${wish.id}')" class="text-slate-400 hover:text-[#7c2356] transition" title="Sao chép lời chúc">
+                                    <i class="fa-regular fa-copy text-sm"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            `;
+        }
+
+        function setBoardLayout(mode) {
+            boardSettings.layoutMode = mode;
+            saveToLocalStorage();
+            updateLayoutButtonsUI();
+            renderBoard();
+        }
+
+        function updateLayoutButtonsUI() {
+            const modes = ['row1', 'split', 'row2'];
+            modes.forEach(m => {
+                const btn = document.getElementById('layoutBtn_' + m);
+                if (!btn) return;
+                if (boardSettings.layoutMode === m) {
+                    btn.className = 'px-2.5 py-1 rounded-full text-[11px] font-semibold bg-[#7c2356] text-white shadow-xs transition flex items-center gap-1';
+                } else {
+                    btn.className = 'px-2.5 py-1 rounded-full text-[11px] font-semibold text-[#7c2348] hover:bg-pink-100/70 transition flex items-center gap-1';
+                }
+            });
+        }
+
+        function renderBoard() {
+            const countLabel = document.getElementById('wishCountLabel');
+            const emptyState = document.getElementById('emptyBoardState');
+            const boardWrapper = document.getElementById('boardContentWrapper');
+            const singleWrapper = document.getElementById('horizontalSingleWrapper');
+            const splitWrapper = document.getElementById('horizontalSplitWrapper');
+            const horizontalTrack = document.getElementById('horizontalTrack');
+
+            // Ưu tiên thẻ được ghim nổi bật lên đầu, sau đó giữ nguyên thứ tự trong mảng
+            const ordered = [
+                ...wishes.filter(w => w.isFeatured),
+                ...wishes.filter(w => !w.isFeatured)
+            ];
+
+            const filtered = ordered.filter((w) => {
+                if (!searchQuery.trim()) return true;
+                const q = searchQuery.toLowerCase().trim();
+                return (
+                    (w.recipient || '').toLowerCase().includes(q) ||
+                    (w.sender || '').toLowerCase().includes(q) ||
+                    (w.message || '').toLowerCase().includes(q) ||
+                    (w.hashtag || '').toLowerCase().includes(q)
+                );
+            });
+
+            countLabel.textContent = `${filtered.length} lời chúc`;
+
+            if (filtered.length === 0) {
+                emptyState.classList.remove('hidden');
+                boardWrapper.classList.add('hidden');
+                return;
+            }
+
+            emptyState.classList.add('hidden');
+            boardWrapper.classList.remove('hidden');
+
+            const mode = boardSettings.layoutMode || 'row1';
+
+            if (mode === 'split' && filtered.length > 1) {
+                singleWrapper.classList.add('hidden');
+                splitWrapper.classList.remove('hidden');
+                splitWrapper.classList.add('grid');
+
+                const featuredCard = filtered.find(w => w.isFeatured) || filtered.find(w => w.imageUrl) || filtered[0];
+                const restCards = filtered.filter(w => w.id !== featuredCard.id);
+
+                document.getElementById('splitFeaturedCol').innerHTML = buildCardHtml(featuredCard, 'w-full');
+                document.getElementById('splitHorizontalTrack').innerHTML = restCards.map(c => buildCardHtml(c, 'w-[330px] sm:w-[365px] shrink-0 snap-start')).join('');
+            } else {
+                splitWrapper.classList.add('hidden');
+                splitWrapper.classList.remove('grid');
+                singleWrapper.classList.remove('hidden');
+
+                if (mode === 'row2') {
+                    horizontalTrack.className = 'horizontal-grid-2row';
+                    horizontalTrack.innerHTML = filtered.map(w => buildCardHtml(w, 'w-[355px] shrink-0 snap-start')).join('');
+                } else {
+                    horizontalTrack.className = 'horizontal-scroll-track';
+                    horizontalTrack.innerHTML = filtered.map(w => buildCardHtml(w, 'w-[340px] sm:w-[390px] shrink-0 snap-start')).join('');
+                }
+            }
+        }
+
+        // Nút bấm trượt ngang Trái / Phải
+        function getActiveScrollTrack() {
+            if (boardSettings.layoutMode === 'split' && !document.getElementById('horizontalSplitWrapper').classList.contains('hidden')) {
+                return document.getElementById('splitHorizontalTrack');
+            }
+            return document.getElementById('horizontalTrack');
+        }
+
+        window.scrollBoardBy = function(deltaX) {
+            const track = getActiveScrollTrack();
+            if (track) {
+                track.scrollBy({ left: deltaX, behavior: 'smooth' });
+            }
+        };
+
+        // Hỗ trợ lăn con lăn chuột dọc để trượt ngang mượt mà + Kéo chuột (Drag-to-scroll)
+        function setupHorizontalScrollInteractions() {
+            const tracks = [
+                document.getElementById('horizontalTrack'),
+                document.getElementById('splitHorizontalTrack')
+            ];
+
+            tracks.forEach(track => {
+                if (!track) return;
+
+                // Chuyển lăn chuột dọc thành trượt ngang khi con trỏ nằm trên dải thiệp
+                track.addEventListener('wheel', (e) => {
+                    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+                        const maxScrollLeft = track.scrollWidth - track.clientWidth;
+                        if (maxScrollLeft > 0) {
+                            e.preventDefault();
+                            track.scrollLeft += e.deltaY * 1.15;
+                        }
+                    }
+                }, { passive: false });
+
+                // Kéo thả chuột để trượt ngang
+                let isDown = false;
+                let startX = 0;
+                let scrollLeftStart = 0;
+
+                track.addEventListener('mousedown', (e) => {
+                    if (e.target.closest('button, a, input, select, textarea')) return;
+                    isDown = true;
+                    startX = e.pageX - track.offsetLeft;
+                    scrollLeftStart = track.scrollLeft;
+                });
+
+                track.addEventListener('mouseleave', () => { isDown = false; });
+                track.addEventListener('mouseup', () => { isDown = false; });
+                track.addEventListener('mousemove', (e) => {
+                    if (!isDown) return;
+                    e.preventDefault();
+                    const x = e.pageX - track.offsetLeft;
+                    const walk = (x - startX) * 1.4;
+                    track.scrollLeft = scrollLeftStart - walk;
+                });
+            });
+        }
+
+        // ------------------------------------------
+        // 3. CĂN CHỈNH ẢNH TỰ TAY (DRAG PAN, ZOOM, CONTAIN/NATURAL/COVER, XOAY 90 ĐỘ)
+        // ------------------------------------------
+        window.setImgFitMode = function(mode) {
+            modalImgConfig.fitMode = mode;
+            updateFitModeButtonsUI();
+            updatePreview();
+        };
+
+        function updateFitModeButtonsUI() {
+            const modes = ['natural', 'contain', 'cover'];
+            modes.forEach(m => {
+                const btn = document.getElementById('fitBtn_' + m);
+                if (!btn) return;
+                if (modalImgConfig.fitMode === m) {
+                    btn.className = 'py-1.5 px-2 rounded-lg text-[11px] font-bold bg-[#7c2356] text-white border border-[#7c2356] shadow-2xs transition text-center';
+                } else {
+                    btn.className = 'py-1.5 px-2 rounded-lg text-[11px] font-semibold bg-slate-50 text-slate-600 border border-slate-200 hover:bg-pink-50 transition text-center';
+                }
+            });
+        }
+
+        window.onSliderAdjust = function() {
+            modalImgConfig.zoom = parseFloat(document.getElementById('inputImgZoom').value) || 1;
+            modalImgConfig.frameHeight = parseInt(document.getElementById('inputImgHeight').value, 10) || 260;
+            modalImgConfig.panY = parseInt(document.getElementById('inputImgPanY').value, 10);
+            modalImgConfig.panX = parseInt(document.getElementById('inputImgPanX').value, 10);
+            syncSlidersLabels();
+            updatePreview();
+        };
+
+        function syncSlidersFromConfig() {
+            document.getElementById('inputImgZoom').value = modalImgConfig.zoom;
+            document.getElementById('inputImgHeight').value = modalImgConfig.frameHeight;
+            document.getElementById('inputImgPanY').value = modalImgConfig.panY;
+            document.getElementById('inputImgPanX').value = modalImgConfig.panX;
+            syncSlidersLabels();
+            updateFitModeButtonsUI();
+        }
+
+        function syncSlidersLabels() {
+            document.getElementById('zoomValLabel').textContent = Math.round(modalImgConfig.zoom * 100) + '%';
+            document.getElementById('heightValLabel').textContent = modalImgConfig.frameHeight + 'px';
+            document.getElementById('panYValLabel').textContent = modalImgConfig.panY + '%';
+            document.getElementById('panXValLabel').textContent = modalImgConfig.panX + '%';
+        }
+
+        window.resetImageAdjustments = function() {
+            modalImgConfig = {
+                fitMode: 'cover',
+                zoom: 1,
+                panX: 50,
+                panY: 22,
+                frameHeight: 260
+            };
+            syncSlidersFromConfig();
+            updatePreview();
+            showToast('Đã đặt lại khung ảnh mặc định');
+        };
+
+        // Xoay ảnh 90 độ trực tiếp bằng Canvas
+        window.rotateModalImage = function() {
+            if (!modalImageBase64OrUrl) return;
+            const img = new Image();
+            img.crossOrigin = 'anonymous';
+            img.onload = function() {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.height;
+                canvas.height = img.width;
+                const ctx = canvas.getContext('2d');
+                ctx.translate(canvas.width / 2, canvas.height / 2);
+                ctx.rotate(Math.PI / 2);
+                ctx.drawImage(img, -img.width / 2, -img.height / 2);
+                modalImageBase64OrUrl = canvas.toDataURL('image/jpeg', 0.85);
+                updatePreview();
+                showToast('Đã xoay ảnh 90° 🔄');
+            };
+            img.src = modalImageBase64OrUrl;
+        };
+
+        // Kéo trực tiếp trên khung ảnh Xem trước (Interactive Drag-to-Pan)
+        function setupPreviewImageDrag() {
+            const box = document.getElementById('previewImgInnerBox');
+            if (!box) return;
+
+            let dragging = false;
+            let startX = 0;
+            let startY = 0;
+            let initialPanX = 50;
+            let initialPanY = 25;
+
+            const startDrag = (clientX, clientY) => {
+                if (!modalImageBase64OrUrl) return;
+                dragging = true;
+                startX = clientX;
+                startY = clientY;
+                initialPanX = modalImgConfig.panX;
+                initialPanY = modalImgConfig.panY;
+            };
+
+            const moveDrag = (clientX, clientY) => {
+                if (!dragging) return;
+                const dx = clientX - startX;
+                const dy = clientY - startY;
+                // Kéo xuống -> thấy phần phía trên của ảnh (giảm panY)
+                const sensitivity = 0.35 / (modalImgConfig.zoom || 1);
+                modalImgConfig.panX = Math.max(0, Math.min(100, Math.round(initialPanX - dx * sensitivity)));
+                modalImgConfig.panY = Math.max(0, Math.min(100, Math.round(initialPanY - dy * sensitivity)));
+                syncSlidersFromConfig();
+                updatePreview();
+            };
+
+            const stopDrag = () => { dragging = false; };
+
+            box.addEventListener('mousedown', (e) => {
+                e.preventDefault();
+                startDrag(e.clientX, e.clientY);
+            });
+            window.addEventListener('mousemove', (e) => moveDrag(e.clientX, e.clientY));
+            window.addEventListener('mouseup', stopDrag);
+
+            box.addEventListener('touchstart', (e) => {
+                if (e.touches.length === 1) {
+                    startDrag(e.touches[0].clientX, e.touches[0].clientY);
+                }
+            }, { passive: true });
+            window.addEventListener('touchmove', (e) => {
+                if (dragging && e.touches.length === 1) {
+                    moveDrag(e.touches[0].clientX, e.touches[0].clientY);
+                }
+            }, { passive: true });
+            window.addEventListener('touchend', stopDrag);
+        }
+
+        // ------------------------------------------
+        // 4. MODAL THÊM / SỬA LỜI CHÚC
+        // ------------------------------------------
+        window.openWishModal = function() {
+            document.getElementById('wishForm').reset();
+            document.getElementById('editingWishId').value = '';
+            document.getElementById('wishModalTitle').textContent = 'Gửi lời chúc 20/10';
+            document.getElementById('saveWishBtnText').textContent = 'Đăng lời chúc';
+            document.getElementById('inputHashtag').value = boardSettings.defaultHashtag || '#GuiTronYeuThuong';
+            modalImageBase64OrUrl = '';
+            modalImgConfig = { fitMode: 'cover', zoom: 1, panX: 50, panY: 22, frameHeight: 260 };
+            syncSlidersFromConfig();
+            updatePreview();
+
+            const modal = document.getElementById('wishModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.openEditWishModal = function(wishId) {
+            const target = wishes.find((w) => w.id === wishId);
+            if (!target) return;
+
+            document.getElementById('editingWishId').value = target.id;
+            document.getElementById('wishModalTitle').textContent = 'Chỉnh sửa lời chúc & Căn chỉnh ảnh';
+            document.getElementById('saveWishBtnText').textContent = 'Lưu thay đổi';
+
+            document.getElementById('inputRecipient').value = target.recipient || '';
+            document.getElementById('inputSender').value = target.sender || '';
+            document.getElementById('inputMessage').value = target.message || '';
+            document.getElementById('inputHashtag').value = target.hashtag || boardSettings.defaultHashtag;
+            document.getElementById('inputTint').value = target.tint || 'tint-mint';
+            document.getElementById('inputPinStyle').value = target.pinStyle || 'pushpin-gold';
+            document.getElementById('inputCustomTime').value = target.customTime || '';
+            document.getElementById('inputBadgeColor').value = target.badgeColor || 'emerald';
+            document.getElementById('inputIsFeatured').checked = Boolean(target.isFeatured);
+
+            modalImageBase64OrUrl = target.imageUrl || '';
+            modalImgConfig = {
+                fitMode: target.imgFitMode || 'cover',
+                zoom: typeof target.imgZoom === 'number' ? target.imgZoom : 1,
+                panX: typeof target.imgPanX === 'number' ? target.imgPanX : 50,
+                panY: typeof target.imgPanY === 'number' ? target.imgPanY : 22,
+                frameHeight: typeof target.imgHeight === 'number' ? target.imgHeight : 260
+            };
+            syncSlidersFromConfig();
+            updatePreview();
+
+            const modal = document.getElementById('wishModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.closeWishModal = function() {
+            const modal = document.getElementById('wishModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        };
+
+        window.pickCategorySuggestion = function(category) {
+            const list = FAMILY_SUGGESTIONS[category] || FAMILY_SUGGESTIONS.mom;
+            const chosen = list[Math.floor(Math.random() * list.length)];
+            document.getElementById('inputMessage').value = chosen;
+
+            const recipientInput = document.getElementById('inputRecipient');
+            if (!recipientInput.value.trim()) {
+                if (category === 'mom') recipientInput.value = 'Bà & Mẹ';
+                else if (category === 'sister') recipientInput.value = 'Chị gái';
+                else if (category === 'love') recipientInput.value = 'Em yêu';
+            }
+            updatePreview();
+        };
+
+        window.handleTintChange = function() {
+            const tint = document.getElementById('inputTint').value;
+            const badgeSelect = document.getElementById('inputBadgeColor');
+            if (tint === 'tint-pink') badgeSelect.value = 'burgundy';
+            else if (tint === 'tint-cream') badgeSelect.value = 'slate';
+            else if (tint === 'tint-mint') badgeSelect.value = 'emerald';
+            else badgeSelect.value = 'ocean';
+            updatePreview();
+        };
+
+        window.selectPresetPhoto = function(url) {
+            modalImageBase64OrUrl = url;
+            modalImgConfig = { fitMode: 'cover', zoom: 1, panX: 50, panY: 35, frameHeight: 260 };
+            syncSlidersFromConfig();
+            updatePreview();
+            showToast('Đã chọn ảnh bó hoa! Bạn có thể kéo ảnh để căn chỉnh 💐');
+        };
+
+        window.clearModalImage = function() {
+            modalImageBase64OrUrl = '';
+            document.getElementById('fileInput').value = '';
+            updatePreview();
+        };
+
+        // Nén ảnh rõ nét và thông minh khi tải từ máy lên
+        window.handleFileSelect = function(event) {
+            const file = event.target.files?.[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = new Image();
+                img.onload = function() {
+                    const canvas = document.createElement('canvas');
+                    const maxDim = 960;
+                    let w = img.width;
+                    let h = img.height;
+                    if (w > h && w > maxDim) {
+                        h = Math.round((h * maxDim) / w);
+                        w = maxDim;
+                    } else if (h > maxDim) {
+                        w = Math.round((w * maxDim) / h);
+                        h = maxDim;
+                    }
+                    canvas.width = w;
+                    canvas.height = h;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0, w, h);
+                    modalImageBase64OrUrl = canvas.toDataURL('image/jpeg', 0.82);
+
+                    // Mặc định để chế độ 'natural' hoặc 'cover' với panY=20% để không bao giờ bị cắt mất khuôn mặt
+                    modalImgConfig = {
+                        fitMode: 'cover',
+                        zoom: 1,
+                        panX: 50,
+                        panY: 20,
+                        frameHeight: 260
+                    };
+                    syncSlidersFromConfig();
+                    updatePreview();
+                    showToast('Đã tải ảnh lên! Giữ chuột kéo trên ảnh hoặc bấm "Tự nhiên" để không bị cắt nhé 📸');
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        };
+
+        window.updatePreview = function() {
+            const recipient = document.getElementById('inputRecipient').value.trim() || 'Bà';
+            const sender = document.getElementById('inputSender').value.trim() || 'Cháu Nguyên';
+            const message = document.getElementById('inputMessage').value.trim() || 'Nhập lời chúc của bạn ở cột bên trái...';
+            const tint = document.getElementById('inputTint').value;
+            const pinStyle = document.getElementById('inputPinStyle').value;
+            const customTime = document.getElementById('inputCustomTime').value.trim() || 'Vừa xong';
+            const badgeColor = document.getElementById('inputBadgeColor').value;
+            let hashtag = document.getElementById('inputHashtag').value.trim() || '#GuiTronYeuThuong';
+            if (!hashtag.startsWith('#')) hashtag = '#' + hashtag;
+
+            document.getElementById('previewRecipient').textContent = recipient;
+            document.getElementById('previewSender').textContent = sender;
+            document.getElementById('previewMessage').textContent = `“${message}”`;
+            document.getElementById('previewHashtag').textContent = hashtag;
+            document.getElementById('previewTintBox').className = `${tint} rounded-2xl p-4 transition-colors`;
+
+            const timeBadge = document.getElementById('previewTimeBadge');
+            timeBadge.textContent = customTime;
+            timeBadge.className = `px-2.5 py-0.5 rounded-full text-[11px] font-semibold ${getBadgeColorClass(badgeColor)}`;
+
+            const decoEl = document.getElementById('previewDeco');
+            if (pinStyle === 'pushpin-gold') decoEl.className = 'pushpin-3d pushpin-gold';
+            else if (pinStyle === 'pushpin-rose') decoEl.className = 'pushpin-3d pushpin-rose';
+            else if (pinStyle === 'paperclip') decoEl.className = 'paperclip-deco';
+            else decoEl.className = `washi-tape ${pinStyle}`;
+
+            const imgWrapper = document.getElementById('previewImgWrapper');
+            const innerBox = document.getElementById('previewImgInnerBox');
+            const blurBg = document.getElementById('previewImgBlurBg');
+            const imgEl = document.getElementById('previewImgEl');
+            const clearBtn = document.getElementById('clearImgBtn');
+            const adjustPanel = document.getElementById('imageAdjustPanel');
+            const dragHint = document.getElementById('dragPhotoHint');
+
+            if (modalImageBase64OrUrl) {
+                imgWrapper.classList.remove('hidden');
+                clearBtn.classList.remove('hidden');
+                adjustPanel.classList.remove('hidden');
+                dragHint.classList.remove('hidden');
+
+                imgEl.src = modalImageBase64OrUrl;
+                blurBg.src = modalImageBase64OrUrl;
+
+                const { fitMode, zoom, panX, panY, frameHeight } = modalImgConfig;
+
+                if (fitMode === 'natural') {
+                    innerBox.style.height = 'auto';
+                    blurBg.classList.add('hidden');
+                    imgEl.className = 'relative z-10 w-full h-auto block transition-transform duration-75 pointer-events-none';
+                    imgEl.style.objectPosition = '';
+                    imgEl.style.transform = `scale(${zoom})`;
+                    imgEl.style.transformOrigin = `${panX}% ${panY}%`;
+                } else if (fitMode === 'contain') {
+                    innerBox.style.height = frameHeight + 'px';
+                    blurBg.classList.remove('hidden');
+                    imgEl.className = 'relative z-10 w-full h-full object-contain transition-transform duration-75 pointer-events-none';
+                    imgEl.style.objectPosition = '';
+                    imgEl.style.transform = `scale(${zoom})`;
+                    imgEl.style.transformOrigin = `${panX}% ${panY}%`;
+                } else {
+                    innerBox.style.height = frameHeight + 'px';
+                    blurBg.classList.add('hidden');
+                    imgEl.className = 'relative z-10 w-full h-full object-cover transition-transform duration-75 pointer-events-none';
+                    imgEl.style.objectPosition = `${panX}% ${panY}%`;
+                    imgEl.style.transform = `scale(${zoom})`;
+                    imgEl.style.transformOrigin = `${panX}% ${panY}%`;
+                }
+            } else {
+                imgWrapper.classList.add('hidden');
+                clearBtn.classList.add('hidden');
+                adjustPanel.classList.add('hidden');
+                dragHint.classList.add('hidden');
+                imgEl.src = '';
+            }
+        };
+
+        window.saveWishForm = function(event) {
+            event.preventDefault();
+            const editingId = document.getElementById('editingWishId').value;
+            const recipient = document.getElementById('inputRecipient').value.trim();
+            const sender = document.getElementById('inputSender').value.trim() || 'Ẩn danh';
+            const message = document.getElementById('inputMessage').value.trim();
+            const tint = document.getElementById('inputTint').value;
+            const pinStyle = document.getElementById('inputPinStyle').value;
+            const customTime = document.getElementById('inputCustomTime').value.trim();
+            const badgeColor = document.getElementById('inputBadgeColor').value;
+            const isFeatured = document.getElementById('inputIsFeatured').checked;
+            let hashtag = document.getElementById('inputHashtag').value.trim() || '#GuiTronYeuThuong';
+            if (!hashtag.startsWith('#')) hashtag = '#' + hashtag;
+
+            const payload = {
+                recipient,
+                sender,
+                message,
+                hashtag,
+                imageUrl: modalImageBase64OrUrl || '',
+                imgFitMode: modalImgConfig.fitMode,
+                imgZoom: modalImgConfig.zoom,
+                imgPanX: modalImgConfig.panX,
+                imgPanY: modalImgConfig.panY,
+                imgHeight: modalImgConfig.frameHeight,
+                tint,
+                pinStyle,
+                customTime,
+                badgeColor,
+                isFeatured
+            };
+
+            closeWishModal();
+
+            if (editingId) {
+                const idx = wishes.findIndex((w) => w.id === editingId);
+                if (idx >= 0) {
+                    wishes[idx] = { ...wishes[idx], ...payload };
+                }
+                showToast('Đã lưu chỉnh sửa tấm thiệp! ✨');
+            } else {
+                const randomRot = Number(((Math.random() * 1.8) - 0.9).toFixed(2));
+                const newWish = {
+                    id: 'wish_' + Date.now(),
+                    ...payload,
+                    rotation: randomRot,
+                    likes: 0,
+                    createdAt: Date.now()
+                };
+                wishes.unshift(newWish);
+                showToast(`Đã thêm lời chúc gửi tới ${recipient}! 🌸`);
+            }
+
+            saveToLocalStorage();
+            renderBoard();
+        };
+
+        // ------------------------------------------
+        // 5. SẮP XẾP THỨ TỰ, GHIM, THẢ TIM, COPY, XOÁ & LIGHTBOX
+        // ------------------------------------------
+        window.moveWishOrder = function(wishId, direction) {
+            const idx = wishes.findIndex(w => w.id === wishId);
+            if (idx < 0) return;
+            const newIdx = idx + direction;
+            if (newIdx < 0 || newIdx >= wishes.length) return;
+            const temp = wishes[idx];
+            wishes[idx] = wishes[newIdx];
+            wishes[newIdx] = temp;
+            saveToLocalStorage();
+            renderBoard();
+        };
+
+        window.togglePinFeatured = function(wishId) {
+            const target = wishes.find((w) => w.id === wishId);
+            if (!target) return;
+            target.isFeatured = !target.isFeatured;
+            saveToLocalStorage();
+            renderBoard();
+            showToast(target.isFeatured ? 'Đã đưa thiệp lên đầu bảng! 📌' : 'Đã bỏ ghim thiệp');
+        };
+
+        window.likeWish = function(wishId) {
+            const target = wishes.find((w) => w.id === wishId);
+            if (!target) return;
+            target.likes = (target.likes || 0) + 1;
+            likedIds.add(wishId);
+            saveToLocalStorage();
+            renderBoard();
+        };
+
+        window.copyWish = function(wishId) {
+            const target = wishes.find((w) => w.id === wishId);
+            if (!target) return;
+            const text = `Tới ${target.recipient}: “${target.message}” — Từ: ${target.sender}`;
+            const temp = document.createElement('textarea');
+            temp.value = text;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+            showToast('Đã sao chép lời chúc! 📋');
+        };
+
+        let pendingDeleteId = null;
+        window.promptDeleteSingleWish = function(wishId) {
+            const target = wishes.find((w) => w.id === wishId);
+            document.getElementById('deleteModalTitle').textContent = 'Xoá tấm thiệp này?';
+            document.getElementById('deleteModalDesc').textContent = target
+                ? `Lời chúc gửi tới "${target.recipient}" sẽ được xoá khỏi tường.`
+                : 'Tấm thiệp này sẽ được gỡ khỏi tường lời chúc.';
+            pendingDeleteId = wishId;
+            const modal = document.getElementById('deleteConfirmModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.closeDeleteModal = function() {
+            pendingDeleteId = null;
+            const modal = document.getElementById('deleteConfirmModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        };
+
+        document.getElementById('confirmDeleteBtn').addEventListener('click', () => {
+            if (pendingDeleteId) {
+                wishes = wishes.filter(w => w.id !== pendingDeleteId);
+                saveToLocalStorage();
+                renderBoard();
+                showToast('Đã xoá tấm thiệp');
+            }
+            closeDeleteModal();
+        });
+
+        window.openLightbox = function(wishId) {
+            const target = wishes.find(w => w.id === wishId);
+            if (!target || !target.imageUrl) return;
+            document.getElementById('lightboxImg').src = target.imageUrl;
+            const modal = document.getElementById('lightboxModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.closeLightbox = function() {
+            const modal = document.getElementById('lightboxModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        };
+
+        // ------------------------------------------
+        // 6. SAO LƯU & KHÔI PHỤC DỮ LIỆU (BACKUP & RESTORE)
+        // ------------------------------------------
+        window.openBackupModal = function(defaultTab = 'export') {
+            switchBackupTab(defaultTab);
+            const modal = document.getElementById('backupModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.closeBackupModal = function() {
+            const modal = document.getElementById('backupModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        };
+
+        window.switchBackupTab = function(tabName) {
+            ['export', 'restore', 'rescue'].forEach(t => {
+                const content = document.getElementById('backupTab_' + t);
+                const btn = document.getElementById('tabBtn_' + t);
+                if (t === tabName) {
+                    content.classList.remove('hidden');
+                    btn.className = 'px-4 py-2 text-xs font-bold border-b-2 border-[#7c2356] text-[#7c2356] transition';
+                } else {
+                    content.classList.add('hidden');
+                    btn.className = 'px-4 py-2 text-xs font-bold border-b-2 border-transparent text-slate-500 hover:text-slate-700 transition';
+                }
+            });
+        };
+
+        window.downloadJsonBackup = function() {
+            const data = {
+                version: 2,
+                exportedAt: new Date().toISOString(),
+                settings: boardSettings,
+                wishes: wishes
+            };
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'backup_loichuc_20_10.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast('Đã tải file sao lưu backup_loichuc_20_10.json! 💾');
+        };
+
+        window.copyJsonBackup = function() {
+            const data = { settings: boardSettings, wishes: wishes };
+            const temp = document.createElement('textarea');
+            temp.value = JSON.stringify(data);
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+            showToast('Đã copy toàn bộ dữ liệu lời chúc vào Clipboard! 📋');
+        };
+
+        window.copyRescueCommand = function() {
+            const cmd = 'copy(JSON.stringify(localStorage))';
+            const temp = document.createElement('textarea');
+            temp.value = cmd;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+            showToast('Đã copy lệnh! Hãy dán vào Console (F12) ở tab cũ nhé ✨');
+        };
+
+        // Hàm bóc tách thông minh từ bất kỳ định dạng JSON, localStorage dump hoặc file HTML cũ
+        function parseAndExtractWishesFromAnyText(rawText) {
+            const extracted = [];
+            if (!rawText || !rawText.trim()) return extracted;
+
+            // Trường hợp 1: Người dùng chọn file .html cũ có chứa window.__BAKED_WISHES__ = [...]
+            const bakedMatch = rawText.match(/window\.__BAKED_WISHES__\s*=\s*(\[[\s\S]*?\]);/);
+            if (bakedMatch && bakedMatch[1]) {
+                try {
+                    const arr = JSON.parse(bakedMatch[1]);
+                    if (Array.isArray(arr)) {
+                        arr.forEach((item, idx) => {
+                            const norm = normalizeWishItem(item, idx);
+                            if (norm) extracted.push(norm);
+                        });
+                        return extracted;
+                    }
+                } catch (e) {
+                    console.warn(e);
+                }
+            }
+
+            // Trường hợp 2: Chuỗi JSON (Mảng trực tiếp, Object backup, hoặc localStorage dump từ lệnh copy(JSON.stringify(localStorage)))
+            try {
+                const parsed = JSON.parse(rawText);
+                if (Array.isArray(parsed)) {
+                    parsed.forEach((item, idx) => {
+                        const norm = normalizeWishItem(item, idx);
+                        if (norm) extracted.push(norm);
+                    });
+                } else if (parsed && typeof parsed === 'object') {
+                    if (Array.isArray(parsed.wishes)) {
+                        parsed.wishes.forEach((item, idx) => {
+                            const norm = normalizeWishItem(item, idx);
+                            if (norm) extracted.push(norm);
+                        });
+                    } else {
+                        // Quét tất cả các thuộc tính bên trong localStorage dump
+                        Object.values(parsed).forEach(val => {
+                            if (typeof val === 'string' && (val.startsWith('[') || val.startsWith('{'))) {
+                                try {
+                                    const sub = JSON.parse(val);
+                                    const arr = Array.isArray(sub) ? sub : (Array.isArray(sub.wishes) ? sub.wishes : []);
+                                    arr.forEach((item, idx) => {
+                                        const norm = normalizeWishItem(item, idx);
+                                        if (norm) extracted.push(norm);
+                                    });
+                                } catch (err) {}
+                            }
+                        });
+                    }
+                }
+            } catch (e) {
+                console.warn('Không phải JSON thuần:', e);
+            }
+
+            return extracted;
+        }
+
+        function applyRestoredWishes(newItems, merge = true) {
+            if (!newItems || newItems.length === 0) {
+                showToast('Không tìm thấy lời chúc nào trong dữ liệu vừa nhập!');
+                return;
+            }
+
+            if (!merge) {
+                wishes = newItems;
+            } else {
+                const map = new Map();
+                wishes.forEach(w => map.set(`${w.recipient}|${w.message}`, w));
+                newItems.forEach(w => map.set(`${w.recipient}|${w.message}`, w));
+                wishes = Array.from(map.values());
+            }
+
+            saveToLocalStorage();
+            renderBoard();
+            closeBackupModal();
+            showToast(`Đã khôi phục thành công ${newItems.length} lời chúc! 🎉`);
+        }
+
+        window.handleBackupFileUpload = function(event) {
+            const file = event.target.files?.[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+                const items = parseAndExtractWishesFromAnyText(content);
+                const merge = document.getElementById('mergeRestoreCheckbox').checked;
+                applyRestoredWishes(items, merge);
+            };
+            reader.readAsText(file);
+        };
+
+        window.restoreFromTextarea = function() {
+            const raw = document.getElementById('restoreJsonTextarea').value;
+            const items = parseAndExtractWishesFromAnyText(raw);
+            const merge = document.getElementById('mergeRestoreCheckbox').checked;
+            applyRestoredWishes(items, merge);
+        };
+
+        window.scanBrowserStorageManual = function() {
+            const beforeCount = wishes.length;
+            loadAndRecoverData();
+            renderBoard();
+            const afterCount = wishes.length;
+            if (afterCount > beforeCount) {
+                showToast(`Đã tìm thấy và khôi phục thêm ${afterCount - beforeCount} lời chúc! 🎉`);
+                closeBackupModal();
+            } else {
+                showToast(`Hiện có ${afterCount} lời chúc trong bộ nhớ trình duyệt này.`);
+            }
+        };
+
+        // ------------------------------------------
+        // 7. CÀI ĐẶT TIÊU ĐỀ, HOA RƠI & XUẤT FILE HTML ĐÓNG GÓI SẴN
+        // ------------------------------------------
+        function applyBoardSettingsToUI() {
+            document.getElementById('boardTitleText').textContent = boardSettings.title;
+            document.getElementById('boardSubtitleText').textContent = boardSettings.subtitle;
+            updateLayoutButtonsUI();
+        }
+
+        window.openSettingsModal = function() {
+            document.getElementById('settingTitleInput').value = boardSettings.title;
+            document.getElementById('settingSubtitleInput').value = boardSettings.subtitle;
+            document.getElementById('settingHashtagInput').value = boardSettings.defaultHashtag;
+            const modal = document.getElementById('settingsModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.closeSettingsModal = function() {
+            const modal = document.getElementById('settingsModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        };
+
+        window.saveBoardSettings = function() {
+            const title = document.getElementById('settingTitleInput').value.trim() || 'Lời chúc 20/10';
+            const subtitle = document.getElementById('settingSubtitleInput').value.trim() || 'DÀNH TẶNG NHỮNG NGƯỜI PHỤ NỮ YÊU THƯƠNG';
+            let defaultHashtag = document.getElementById('settingHashtagInput').value.trim() || '#GuiTronYeuThuong';
+            if (!defaultHashtag.startsWith('#')) defaultHashtag = '#' + defaultHashtag;
+
+            boardSettings = { ...boardSettings, title, subtitle, defaultHashtag };
+            saveToLocalStorage();
+            applyBoardSettingsToUI();
+            closeSettingsModal();
+            showToast('Đã cập nhật tiêu đề trang! ✨');
+        };
+
+        window.openDeployGuideModal = function() {
+            const modal = document.getElementById('deployGuideModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        };
+
+        window.closeDeployGuideModal = function() {
+            const modal = document.getElementById('deployGuideModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        };
+
+        // Xuất file index.html có nhúng sẵn toàn bộ danh sách lời chúc, hình ảnh & thông số căn chỉnh ảnh
+        window.downloadBakedHtml = function() {
+            const bakedScriptEl = document.getElementById('bakedDataScript');
+            if (bakedScriptEl) {
+                bakedScriptEl.textContent = `\nwindow.__BAKED_WISHES__ = ${JSON.stringify(wishes)};\nwindow.__BAKED_SETTINGS__ = ${JSON.stringify(boardSettings)};\n`;
+            }
+
+            const htmlContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+            const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'index.html';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast('Đã tải file index.html kèm toàn bộ lời chúc & ảnh của bạn! 💝');
+        };
+
+        // Hiệu ứng cánh hoa rơi
+        function spawnPetal() {
+            if (!petalsEnabled) return;
+            const container = document.getElementById('petalsContainer');
+            if (!container || container.childElementCount > 16) return;
+
+            const petal = document.createElement('div');
+            petal.className = 'petal';
+            const symbols = ['🌸', '💮', '🌷', '🩷'];
+            petal.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+            petal.style.left = Math.random() * 98 + 'vw';
+            petal.style.fontSize = (Math.random() * 10 + 12) + 'px';
+            petal.style.animationDuration = (Math.random() * 6 + 7) + 's';
+
+            container.appendChild(petal);
+            setTimeout(() => petal.remove(), 13000);
+        }
+
+        window.togglePetals = function() {
+            petalsEnabled = !petalsEnabled;
+            const btn = document.getElementById('petalToggleBtn');
+            const container = document.getElementById('petalsContainer');
+            if (petalsEnabled) {
+                btn.classList.replace('bg-slate-100', 'bg-pink-50');
+                showToast('Đã bật hiệu ứng cánh hoa rơi 🌸');
+            } else {
+                btn.classList.replace('bg-pink-50', 'bg-slate-100');
+                if (container) container.innerHTML = '';
+                showToast('Đã tắt hiệu ứng hoa rơi');
+            }
+        };
+
+        // Tìm kiếm
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            const clearBtn = document.getElementById('clearSearchBtn');
+            if (searchQuery.trim()) clearBtn.classList.remove('hidden');
+            else clearBtn.classList.add('hidden');
+            renderBoard();
+        });
+
+        window.clearSearch = function() {
+            document.getElementById('searchInput').value = '';
+            searchQuery = '';
+            document.getElementById('clearSearchBtn').classList.add('hidden');
+            renderBoard();
+        };
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function showToast(msg) {
+            const container = document.getElementById('toastContainer');
+            const el = document.createElement('div');
+            el.className = 'px-4 py-2.5 rounded-full bg-slate-900/90 text-white text-xs font-semibold shadow-lg flex items-center gap-2';
+            el.innerHTML = `<i class="fa-solid fa-circle-check text-pink-400"></i> <span>${escapeHtml(msg)}</span>`;
+            container.appendChild(el);
+            setTimeout(() => el.remove(), 2700);
+        }
+
+        window.onload = function() {
+            loadAndRecoverData();
+            applyBoardSettingsToUI();
+            renderBoard();
+            setupHorizontalScrollInteractions();
+            setupPreviewImageDrag();
+            setInterval(spawnPetal, 1000);
+        };
+    </script>
+</body>
+</html>
