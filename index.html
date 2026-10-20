@@ -2696,12 +2696,22 @@ window.__BAKED_SETTINGS__ = {"title":"Lời chúc 20/10","subtitle":"DÀNH TẶN
     </script>
 
 <script>
-  // Lệnh tự động ẩn các nút dành riêng cho Admin khi người nhà xem
-  document.querySelectorAll('button').forEach(btn => {
-    const text = btn.innerText.toLowerCase();
-    if(text.includes('xuất file') || text.includes('sao lưu') || text.includes('gửi lời chúc') || text.includes('thêm lời chúc')) {
-      btn.style.display = 'none';
-    }
-  });
+  // Lệnh tự động xoá sổ hoàn toàn popup và các nút admin sau khi web tải xong
+  setTimeout(() => {
+    // Tìm và xoá hẳn khung popup Đóng gói Web đang bị kẹt
+    document.querySelectorAll('div').forEach(div => {
+      if (window.getComputedStyle(div).position === 'fixed' && div.innerText.includes('Đóng gói Web')) {
+        div.remove(); 
+      }
+    });
+    
+    // Xoá hẳn các nút quản trị thừa thãi
+    document.querySelectorAll('button').forEach(btn => {
+      const t = btn.innerText.toLowerCase();
+      if (t.includes('xuất file') || t.includes('sao lưu') || t.includes('gửi lời chúc') || t.includes('thêm lời chúc')) {
+        btn.remove();
+      }
+    });
+  }, 50); // Chạy ngay sau 0.05 giây
 </script>
 </body></html>
